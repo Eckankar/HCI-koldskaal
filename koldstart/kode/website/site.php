@@ -20,7 +20,7 @@
       </ul>
       <div class="menuBar lightMenu<?=$_VIEW["level1Id"]?>"></div>
     </nav>
-    <nav id="level2">
+    <nav id="level2" class="lightMenu<?=$_VIEW["level1Id"]?>">
       <ul>
 <?php foreach($_VIEW["level2Menus"] as $id => $link): ?>
         <li class="<?=$id == $_VIEW["level2Id"] ? "selected darkMenu" . $_VIEW["level1Id"] : "unselected lightMenu" . $_VIEW["level1Id"] ?>"><a href="<?= htmlentities($link["url"])?>"><?=$link["title"]?></a></li>
