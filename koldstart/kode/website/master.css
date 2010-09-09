@@ -43,12 +43,12 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    margin-right: 20px;
     width: 140px;
-    font-size: 14px;
-    line-height: 44px;
+    font-size: 11pt;
+    line-height: 33pt;
     text-align: center;
     text-decoration: none;
+    font-weight: bold;
     color: #777;
 }
 
@@ -68,8 +68,9 @@ nav ul li.selected a {
 
 #level3 {
     float: left;
-    width: 150px;
+    width: 200px;
     margin-right: 1em;
+    padding-bottom: 0.5em;
 }
 
 #level3, #level3 ul {
@@ -87,6 +88,14 @@ nav ul li.selected a {
 
 #level3 ul ul li {
     padding-left: 2em;
+}
+
+#level3 ul ul ul li {
+    padding-left: 3em;
+}
+
+#level3 .noIndentLi {
+    padding: 0px;
 }
 
 /* Menu colors */
@@ -127,6 +136,7 @@ nav ul li.selected a {
 ------------------------------*/
 
 #content {
+    margin-top: 1em;
     display: table;
 }
 

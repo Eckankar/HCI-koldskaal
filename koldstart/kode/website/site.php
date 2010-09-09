@@ -32,13 +32,13 @@
       <ul id="level3" class="darkMenu<?= $_VIEW["level1Id"]?>">
 <?php foreach($_VIEW["level3Breadcrumb"] as $id => $link): ?>
         <?=str_repeat("  ", $id)?><li><a href="<?= htmlentities($link["url"])?>"><?=$link["title"]?></a></li>
-        <?=str_repeat("  ", $id)?><ul>
+        <?=str_repeat("  ", $id)?><li class="noIndentLi"><ul>
 <?php endforeach ?>
 <?php foreach($_VIEW["level3Menus"] as $id => $link): ?>
         <?=str_repeat("  ", count($_VIEW["level3Breadcrumb"]))?><li><a href="<?= htmlentities($link["url"])?>"><?=$link["title"]?></a></li>
 <?php endforeach ?>
 <?php for($n = count($_VIEW["level3Breadcrumb"])-1; $n >= 0; $n--): ?>
-        <?=str_repeat("  ", $n)?></ul>
+        <?=str_repeat("  ", $n)?></ul></li>
 <?php endfor ?>
       </ul>
     </aside>
