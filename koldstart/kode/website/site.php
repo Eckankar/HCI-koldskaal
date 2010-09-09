@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <h1><?= $_VIEW["title"]?></h1>
+      <img src="images/logo_lille.png" alt="Pensionistsagen" />
     </header>
     <nav>
       <ul id="level1">
