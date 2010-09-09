@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `varer` (
   `pris` int(10) default NULL,
   `qerw` varchar(234) default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=74 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=74 ;
 
 --
 -- Data dump for tabellen `varer`
@@ -110,7 +110,7 @@ INSERT INTO `varer` (`id`, `leverandør`, `varenavn`, `varegruppe`, `undergruppe
 (65, 'TilTiden', 'Kørestolspude, sort', 'hjælpemidler', 'personlig transport', NULL, NULL, 29900, ''),
 (66, 'ForDeÆldre.dk', 'Indkøbsnet til kørestole', 'hjælpemidler', 'personlig transport', NULL, NULL, 19900, ''),
 (67, 'Seniorshoppen', 'Spisepude', 'hjælpemidler', 'køkken', NULL, NULL, 39900, ''),
-(68, 'PensionisterIDanmark', 'Senge- og læsebord med 4 hjul', 'hjælpemidler', 'soveværelse', NULL, NULL, 139900, '',
+(68, 'PensionisterIDanmark', 'Senge- og læsebord med 4 hjul', 'hjælpemidler', 'soveværelse', NULL, NULL, 139900, ''),
 (69, 'ÆldreRejser', 'Frankfurt (3 dage)', 'rejser', 'Europa', 'København', 'September 2011', 500000, ''),
 (70, 'MuseerIDanmark', 'Guldhornene', 'underholdning', 'kultur', 'Hillerød', 'November 2011', 29900, ''),
 (71, 'ForDeÆldre.dk', 'Oticon Agil Høreapparat', 'hjælpemidler', 'bekvemmelighed', NULL, NULL, 1099900, ''),
