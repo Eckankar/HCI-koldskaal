@@ -18,16 +18,16 @@
         <li class="<?=($id == $_VIEW["level1Id"] ? "selected" : "unselected") . " lightMenu" . $id ?>"><a href="<?= htmlentities($link["url"])?>"><?=$link["title"]?></a></li>
 <?php endforeach ?>
       </ul>
+      <div class="menuBar lightMenu<?=$_VIEW["level1Id"]?>"></div>
     </nav>
-    <div class="menuBar lightMenu<?=$_VIEW["level1Id"]?>"></div>
     <nav id="level2">
       <ul>
 <?php foreach($_VIEW["level2Menus"] as $id => $link): ?>
         <li class="<?=$id == $_VIEW["level2Id"] ? "selected darkMenu" . $_VIEW["level1Id"] : "unselected lightMenu" . $_VIEW["level1Id"] ?>"><a href="<?= htmlentities($link["url"])?>"><?=$link["title"]?></a></li>
 <?php endforeach ?>
       </ul>
+      <div class="menuBar darkMenu<?=$_VIEW["level1Id"]?>"></div>
     </nav>
-    <div class="menuBar darkMenu<?=$_VIEW["level1Id"]?>"></div>
     <aside>
       <ul id="level3" class="darkMenu<?= $_VIEW["level1Id"]?>">
 <?php foreach($_VIEW["level3Breadcrumb"] as $id => $link): ?>
