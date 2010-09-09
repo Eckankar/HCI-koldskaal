@@ -4,6 +4,9 @@
     <meta charset="utf-8" />
     <title>Pensionistsagen</title>
     <link rel="stylesheet" href="master.css" type="text/css" media="screen" /> 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://github.com/malsup/corner/raw/master/jquery.corner.js"></script>
+    <script type="text/javascript" src="master.js"></script>
   </head>
   <body>
     <header>
@@ -11,33 +14,35 @@
     </header>
     <nav>
       <ul id="level1">
-        <li><a>Hovedmenu 1</a></li>
-        <li><a>Hovedmenu 2</a></li>
-        <li><a>Hovedmenu 3</a></li>
+<?php foreach($_VIEW["level1Menus"] as $id => $link): ?>
+        <li class="<?=($id == $_VIEW["level1Id"] ? "selected" : "unselected") . " lightMenu" . $id ?>"><a href="<?= $link["url"]?>"><?=$link["title"]?></a></li>
+<?php endforeach ?>
       </ul>
+      <div class="menuBar lightMenu<?=$_VIEW["level1Id"]?>"></div>
       <ul id="level2">
-        <li><a>Undermenu 1</a></li>
-        <li><a>Undermenu 2</a></li>
-        <li><a>Undermenu 3</a></li>
+<?php foreach($_VIEW["level2Menus"] as $id => $link): ?>
+        <li class="<?=$id == $_VIEW["level2Id"] ? "selected darkMenu" . $_VIEW["level1Id"] : "unselected lightMenu" . $_VIEW["level1Id"] ?>"><a href="<?= $link["url"]?>"><?=$link["title"]?></a></li>
+<?php endforeach ?>
       </ul>
     </nav>
-    <div class="clear"></div>
+    <div class="menuBar darkMenu<?=$_VIEW["level1Id"]?>"></div>
     <aside>
-      <ul id="level3">
-        <li><a>Under<sup>2</sup>menu</a></li>
-        <ul>
-          <li><a>Under<sup>3</sup>menu</a></li>
-          <ul>
-            <li>Punkt 1</li>
-            <li>Punkt 2</li>
-            <li>Punkt 3</li>
-            <li>Punkt 4</li>
-          </ul>
-        </ul>
+      <ul id="level3" class="darkMenu<?= $_VIEW["level1Id"]?>">
+<?php foreach($_VIEW["level3Breadcrumb"] as $id => $link): ?>
+        <?=str_repeat("  ", $id)?><li><a href="<?= $link["url"]?>"><?=$link["title"]?></a></li>
+        <?=str_repeat("  ", $id)?><ul>
+<?php endforeach ?>
+<?php foreach($_VIEW["level3Menus"] as $id => $link): ?>
+        <?=str_repeat("  ", count($_VIEW["level3Breadcrumb"]))?><li><a href="<?= $link["url"]?>"><?=$link["title"]?></a></li>
+<?php endforeach ?>
+<?php for($n = count($_VIEW["level3Breadcrumb"])-1; $n >= 0; $n--): ?>
+        <?=str_repeat("  ", $n)?></ul>
+<?php endfor ?>
       </ul>
     </aside>
     <section id="content">
       <?= $_VIEW["content"] ?>
+
     </section>
   </body>
 </html>

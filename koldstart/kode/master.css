@@ -60,7 +60,9 @@ nav ul li.selected a {
     color: #fff;
 }
 
-#level2 {
+.menuBar {
+    width: 100%;
+    height: 5px;
     clear: both;
 }
 
@@ -88,35 +90,35 @@ nav ul li.selected a {
 }
 
 /* Menu colors */
-.lightMenu1 {
+.lightMenu0 {
     background-color: #FF99AA;
 }
 
-.darkMenu1 {
+.darkMenu0 {
     background-color: #FF5566;
 }
 
-.lightMenu2 {
+.lightMenu1 {
     background-color: #DD88FF;
 }
 
-.darkMenu2 {
+.darkMenu1 {
     background-color: #CC44FF;
 }
 
-.lightMenu3 {
+.lightMenu2 {
     background-color: #8AFF97;
 }
 
-.darkMenu3 {
+.darkMenu2 {
     background-color: #33FF44;
 }
 
-.lightMenu4 {
+.lightMenu3 {
     background-color: #FFDD55;
 }
 
-.darkMenu4 {
+.darkMenu3 {
     background-color: #FFCC22;
 }
 
@@ -132,8 +134,4 @@ nav ul li.selected a {
     display: table-cell;
     width: 620px;
     padding-right: 22px;
-}
-	
-.clear {
-    clear: both;
 }
