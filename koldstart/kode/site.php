@@ -3,6 +3,7 @@
   <head> 
     <meta charset="utf-8" />
     <title>Pensionistsagen</title>
+    <link rel="stylesheet" href="master.css" type="text/css" media="screen" /> 
   </head>
   <body>
     <header>
@@ -19,6 +20,9 @@
         <li><a>Undermenu 2</a></li>
         <li><a>Undermenu 3</a></li>
       </ul>
+    </nav>
+    <div class="clear"></div>
+    <aside>
       <ul id="level3">
         <li><a>Under<sup>2</sup>menu</a></li>
         <ul>
@@ -31,8 +35,8 @@
           </ul>
         </ul>
       </ul>
-    </nav>
-    <section>
+    </aside>
+    <section id="content">
       <?= $_VIEW["content"] ?>
     </section>
   </body>

@@ -26,7 +26,6 @@ p {
 }
 
 nav {
-	position: absolute;
 	left: 0;
 	width: 100%;
     background-color: #AA0;
@@ -34,7 +33,7 @@ nav {
 
 nav ul {
     margin: 0 auto;
-    width: 940px;
+    width: 100%;
     list-style: none;
 }
 
@@ -60,6 +59,15 @@ nav ul li a:hover {
 nav ul li.selected a {
     color: #fff;
 }
+
+#level2 {
+    clear: both;
+}
+
+#level3 {
+    float: left;
+}
+
 /*------------------------------
 =CONTENT AREA AND SIDEBAR LAYOUT
 ------------------------------*/
@@ -74,8 +82,6 @@ nav ul li.selected a {
 		padding-right: 22px;
 	}
 	
-	aside {
-		display: table-cell;
-		width: 300px;
-		background: url("images/sidebar_background.png") top left;
-	}
+.clear {
+    clear: both;
+}
