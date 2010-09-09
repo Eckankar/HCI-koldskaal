@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    $("nav").corner("top cc:#FFF");
+    $("#level1").corner("top cc:#FFF");
 });
     
