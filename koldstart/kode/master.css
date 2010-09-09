@@ -66,6 +66,59 @@ nav ul li.selected a {
 
 #level3 {
     float: left;
+    width: 150px;
+    margin-right: 1em;
+}
+
+#level3, #level3 ul {
+    list-style: none;
+}
+
+#level3 li {
+    padding: 0.3em;
+    padding-left: 0.5em;
+    background-color: pink;
+}
+
+#level3 ul li {
+    padding-left: 1em;
+}
+
+#level3 ul ul li {
+    padding-left: 2em;
+}
+
+/* Menu colors */
+.lightMenu1 {
+    background-color: #FF99AA;
+}
+
+.darkMenu1 {
+    background-color: #FF5566;
+}
+
+.lightMenu2 {
+    background-color: #DD88FF;
+}
+
+.darkMenu2 {
+    background-color: #CC44FF;
+}
+
+.lightMenu3 {
+    background-color: #8AFF97;
+}
+
+.darkMenu3 {
+    background-color: #33FF44;
+}
+
+.lightMenu4 {
+    background-color: #FFDD55;
+}
+
+.darkMenu4 {
+    background-color: #FFCC22;
 }
 
 /*------------------------------
@@ -76,11 +129,11 @@ nav ul li.selected a {
 	display: table;
 }
 
-	#mainContent {
-		display: table-cell;
-		width: 620px;
-		padding-right: 22px;
-	}
+#mainContent {
+    display: table-cell;
+    width: 620px;
+    padding-right: 22px;
+}
 	
 .clear {
     clear: both;
