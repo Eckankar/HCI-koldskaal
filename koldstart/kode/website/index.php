@@ -43,15 +43,15 @@ $_VIEW["level1Menus"] = array(
 );
 
 $_VIEW["level2Menus"] = array(
-  generateUrl("level2=0", "title" => "Undermenu 1"),
-  generateUrl("level2=1", "title" => "Undermenu 2"),
-  generateUrl("level2=2", "title" => "Undermenu 3"),
+  generateUrl("level2=0", "Undermenu 1"),
+  generateUrl("level2=1", "Undermenu 2"),
+  generateUrl("level2=2", "Undermenu 3"),
 );
 
 $_VIEW["level3Menus"] = array(
-  generateUrl("level3=0", "title" => "Under<sup>2</sup>menu 1"),
-  generateUrl("level3=1", "title" => "Under<sup>2</sup>menu 2"),
-  generateUrl("level3=2", "title" => "Under<sup>2</sup>menu 3"),
+  generateUrl("level3=0", "Under<sup>2</sup>menu 1"),
+  generateUrl("level3=1", "Under<sup>2</sup>menu 2"),
+  generateUrl("level3=2", "Under<sup>2</sup>menu 3"),
 );
 
 $_VIEW["level3Breadcrumb"] = array(
