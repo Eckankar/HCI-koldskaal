@@ -11,6 +11,7 @@ Task list:
 Lavere prioritetsopgaver:
 - Gør så der er forside på alle menupunkter.
 - Gør så hovedmenuerne er tab-like
+- Organiser menuerne bedre
 - Valid html5
 - Pænere farver
 
