@@ -51,6 +51,10 @@ if (!$item = getItemByID($_GET['itemID'])) {
     <h1><?= htmlentities($item['varenavn']) ?></h1>
 </header>
 
+<?php if (file_exists('./images/item_' . $item['id'] . '.jpg')): ?>
+<img src="/images/item_<?=$item['id']?>.jpg" alt="billede"/>
+<?php endif ?>
+
 <dl class="itemInfo">
     <?php if (null !== $item['sted']): ?>
     <dt>Sted:</dt>
