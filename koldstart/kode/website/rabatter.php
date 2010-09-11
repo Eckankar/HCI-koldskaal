@@ -20,8 +20,10 @@
         Kontakt til omverdenen
     </div>
     <div class="kategoriBox">
-        <img src="images/kategori_koncert.jpg" title="Koncerter" alt="Koncerter"/>
-        <h2>Koncerter</h2>
+        <a href="?level1=0&level2=2&level3=0&koncerter=1" alt="Gå til koncerter" title="Gå til koncerter">
+            <img src="images/kategori_koncert.jpg" title="Koncerter" alt="Koncerter"/>
+            <h2>Koncerter</h2>
+        </a>
         Musik og oplevelser til sjælen
     </div>
     <div class="kategoriBox">
