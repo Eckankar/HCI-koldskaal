@@ -5,6 +5,12 @@ Task list:
 - Itemvisning (violinkoncert) á la http://www.aeldresagen.dk/Medlemmer/Medlemstilbud/rabatterogtilbud/ferieogophold/Danmark/Sider/SallingsundF%C3%A6rgekro.aspx
 - Købsside til koncerten
 - Købsbekræftelse
-- Registrationsside
+- Registrationsside (Kristoffer)
 
+
+Lavere prioritetsopgaver:
+- Gør så der er forside på alle menupunkter.
+- Gør så hovedmenuerne er tab-like
+- Valid html5
+- Pænere farver
 
