@@ -1,6 +1,6 @@
 GRAPHS=
 TARGET=koldstart.pdf
-TEXFILES=preamble.tex opgave.tex
+TEXFILES=preamble.tex aflevering.tex design.tex
 HELPFILES=
 
 all: $(TARGET)
