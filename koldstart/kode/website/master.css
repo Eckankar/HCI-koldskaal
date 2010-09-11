@@ -43,7 +43,7 @@ nav ul li a {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    color: #777;
+    color: #000;
 }
 
 nav ul li a:hover {
@@ -118,11 +118,11 @@ nav ul li.selected a {
 }
 
 .lightMenu3 {
-    background-color: #7161FF;
+    background-color: #00C41A;
 }
 
 .darkMenu3 {
-    background-color: #331CFF;
+    background-color: #00690E;
 }
 
 /*------------------------------
