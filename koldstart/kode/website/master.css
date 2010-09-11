@@ -216,6 +216,10 @@ form.cmxform fieldset fieldset label {
     color: #CD041B;
 }
 
+.kategoriBox img {
+    border: 1px solid black;
+}
+
 .kategoriBox h2.hover {
     cursor: pointer;
 }
