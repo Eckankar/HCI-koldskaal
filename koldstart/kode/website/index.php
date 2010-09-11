@@ -153,6 +153,18 @@ if(isset($_GET["itemID"])) {
   $_VIEW["content"] = ob_get_clean();
 }
 
+if(isset($_GET["koeb"])) {
+  $_VIEW["level3Breadcrumb"] = array(
+    generateUrl("level3=0", "Rabatter og tilbud"),
+    generateUrl("level3=0&koncerter=1", "Koncerter"),
+    generateUrl("level3=0&violin=1", "Violinkoncerter"),
+    generateUrl("level3=0&itemID=4", "Violinkoncert (Brahms)"),
+  );
+
+  ob_start();
+  include "koeb.php";
+  $_VIEW["content"] = ob_get_clean();
+}
   
 include "site.php";
 ?>
