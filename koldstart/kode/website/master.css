@@ -122,7 +122,7 @@ nav ul li.selected a {
 }
 
 .darkMenu3 {
-    background-color: #00690E;
+    background-color: #009113;
 }
 
 /*------------------------------
@@ -146,6 +146,7 @@ nav ul li.selected a {
 
 form.cmxform fieldset {
   margin-bottom: 10px;
+  padding: 5px;
 }
 
 form.cmxform legend {
@@ -170,21 +171,6 @@ form.cmxform fieldset li {
   margin: 0;
 }
 
-form.cmxform fieldset fieldset {
-  border: none;
-  margin: 3px 0 0;
-}
-
-form.cmxform fieldset fieldset legend {
-  padding: 0 0 5px;
-  font-weight: normal;
-}
-
-form.cmxform fieldset fieldset label {
-  display: block;
-  width: auto;
-}
-
 form.cmxform em {
   font-weight: bold;
   font-style: normal;
@@ -192,11 +178,11 @@ form.cmxform em {
 }
 
 form.cmxform label {
-  width: 120px; /* Width of labels */
+  width: 220px; /* Width of labels */
 }
 
 form.cmxform fieldset fieldset label {
-  margin-left: 123px; /* Width plus 3 (html space) */
+  margin-left: 223px; /* Width plus 3 (html space) */
 }
 
 /*--------------------------

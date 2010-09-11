@@ -1,10 +1,13 @@
+<?php if(isset($_POST["submit"])): ?>
+<p>Du er nu tilmeldt.</p>
+<?php else: ?>
 <p>
   Der er mange fordele ved at være medlem af pensionistsagen. Du kan vælge mellem
   bronze (0% rabat), sølv (5% rabat) og guld (10%) som giver rabat på en lang række
   tilbud og produkter. Hvis du er over 67 år får du desuden 5% ekstra rabat på alt,
   og hvis du bor i København får du også 3% rabat på alt elektronisk udstyr!
 </p>
-<form action="welcome.php" method="get" id="regform">
+<form action="<?= htmlentities($_SERVER["REQUEST_URI"]) ?>" method="post" class="cmxform" id="regform">
 <fieldset>
   <legend>Angiv medlemsoplysninger</legend>
   <ol>
@@ -41,6 +44,7 @@
       </select>
     </li>
   </ol>
-  <button type="submit">Fuldfør tilmelding</button>
+  <button type="submit" name="submit">Fuldfør tilmelding</button>
 </fieldset>
 </form>
+<?php endif ?>

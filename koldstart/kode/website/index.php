@@ -108,7 +108,7 @@ if($_VIEW["level1Id"] == 0 && $_VIEW["level2Id"] == 1 && $_VIEW["level3Id"] == 0
   $_VIEW["content"] = ob_get_clean();
 }
 
-if($_GET["koncerter"] === "1") {
+if(isset($_GET["koncerter"])) {
   $_VIEW["level3Breadcrumb"] = array(
     generateUrl("level3=0", "Rabatter og tilbud"),
   );
@@ -126,8 +126,54 @@ if($_GET["koncerter"] === "1") {
   $_VIEW["content"] = ob_get_clean();
 }
 
+if(isset($_GET["violin"])) {
+  $_VIEW["level3Breadcrumb"] = array(
+    generateUrl("level3=0", "Rabatter og tilbud"),
+    generateUrl("level3=0&koncerter=1", "Koncerter"),
+  );
+
+  $_VIEW["level3Menus"] = array(
+    generateUrl("level3=0&violin=1", "Violinkoncerter"),
+    generateUrl("", "Liedkoncerter"),
+  );
+  ob_start();
+  include "violin.php";
+  $_VIEW["content"] = ob_get_clean();
+}
+
+if(isset($_GET["itemID"])) {
+  $_VIEW["level3Breadcrumb"] = array(
+    generateUrl("level3=0", "Rabatter og tilbud"),
+    generateUrl("level3=0&koncerter=1", "Koncerter"),
+    generateUrl("level3=0&violin=1", "Violinkoncerter"),
+  );
+
+  $_VIEW["level3Menus"] = array(
+    generateUrl("level3=0&itemID=4", "Violinkoncert (Brahms)"),
+  );
 
 
+  ob_start();
+  include "view_item.php";
+  $_VIEW["content"] = ob_get_clean();
+}
 
+if(isset($_GET["koeb"])) {
+  $_VIEW["level3Breadcrumb"] = array(
+    generateUrl("level3=0", "Rabatter og tilbud"),
+    generateUrl("level3=0&koncerter=1", "Koncerter"),
+    generateUrl("level3=0&violin=1", "Violinkoncerter"),
+    generateUrl("level3=0&itemID=4", "Violinkoncert (Brahms)"),
+  );
+
+  $_VIEW["level3Menus"] = array(
+    generateUrl("level3=0&koeb=1", "Køb af Violinkoncert (Brahms)"),
+  );
+
+  ob_start();
+  include "koeb.php";
+  $_VIEW["content"] = ob_get_clean();
+}
+  
 include "site.php";
 ?>
