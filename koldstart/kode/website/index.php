@@ -4,7 +4,6 @@
 
 $_VIEW = array();
 $_VIEW["title"] = "bleh";
-$_VIEW["content"] = "<div>THIS IS PENSIIIOOOOOOOOOON!!!!!</div>";
 
 $_VIEW["level1Id"] = isset($_GET["level1"]) ? $_GET["level1"] : 0;
 $_VIEW["level2Id"] = isset($_GET["level2"]) ? $_GET["level2"] : 0;
@@ -26,6 +25,13 @@ function generateUrl($urlData, $title) {
       $v = explode("=", $q, 2);
 
       $query[$v[0]] = $v[1];
+
+      if($v[0] == "level1") {
+        $query["level2"] = "0";
+        $query["level3"] = "0";
+      } else if($v[0] == "level2") {
+        $query["level3"] = "0";
+      }
     }
 
     $result["url"] = htmlentities("?" . http_build_query($query));
@@ -36,29 +42,55 @@ function generateUrl($urlData, $title) {
   return $result;
 }
 
-$_VIEW["level1Menus"] = array(
-  generateUrl("level1=0", "Menu 1"),
-  generateUrl("level1=1", "Menu 2"),
-  generateUrl("level1=2", "Menu 3"),
-);
-
-$_VIEW["level2Menus"] = array(
-  generateUrl("level2=0", "Undermenu 1"),
-  generateUrl("level2=1", "Undermenu 2"),
-  generateUrl("level2=2", "Undermenu 3"),
-);
-
-$_VIEW["level3Menus"] = array(
-  generateUrl("level3=0", "Under<sup>2</sup>menu 1"),
-  generateUrl("level3=1", "Under<sup>2</sup>menu 2"),
-  generateUrl("level3=2", "Under<sup>2</sup>menu 3"),
-);
-
-$_VIEW["level3Breadcrumb"] = array(
+$searchLinks =   array(
   generateUrl("http://google.dk", "Google"),
   generateUrl("http://yahoo.com", "Yahoo!"),
   generateUrl("http://bing.com", "Bing"),
 );
+
+
+
+$_VIEW["level1Menus"] = array(
+  generateUrl("level1=0", "For medlemmer"),
+  generateUrl("level1=1", "For frivillige"),
+  generateUrl("level1=2", "Presse og politik"),
+  generateUrl("level1=3", "Arbejdsliv"),
+);
+
+if($_VIEW["level1Id"] != 0) { 
+  $_VIEW["level2Menus"] = $searchLinks;
+  $_VIEW["level3Menus"] = $searchLinks;
+} else {
+  $_VIEW["level2Menus"] = array(
+    generateUrl("level2=0", "Det gør vi for dig"),
+    generateUrl("level2=1", "Medlemsservice"),
+    generateUrl("level2=2", "Medlemstilbud"),
+    generateUrl("level2=3", "Netværket"),
+    generateUrl("level2=4", "Rådgivning"),
+    generateUrl("level2=5", "Arrangementer"),
+  );
+
+  if($_VIEW["level2Id"] != 2) {
+    $_VIEW["level3Menus"] = $searchLinks;
+  } else {
+    $_VIEW["level3Menus"] = array(
+      generateUrl("level3=0", "Rabatter og tilbud"),
+      generateUrl("level3=1", "Webshop"),
+      generateUrl("level3=2", "Lotteri"),
+      generateUrl("level3=3", "Støt ældresagen"),
+      generateUrl("level3=4", "Pensionistsagens medlemsbladen"),
+      generateUrl("level3=5", "Aktuelt krydsord"),
+    );
+  }
+}
+
+if($_VIEW["level1Id"] == 0 && $_VIEW["level2Id"] == 2 && $_VIEW["level3Id"] == 0) {
+  $_VIEW["content"] = "<div>Teh webshap</div>";
+} else {
+  $_VIEW["content"] = "<div>THIS IS PENSIIIOOOOOOOOOON!!!!!</div>";
+}
+
+$_VIEW["level3Breadcrumb"] = array();
 
 
 include "site.php";
