@@ -1,5 +1,5 @@
 <?php
-
+ini_set('default_charset', 'utf-8');
 
 
 $_VIEW = array();
@@ -57,7 +57,7 @@ $nonLinks =   array(
 
 
 $_VIEW["level1Menus"] = array(
-  generateUrl("level1=0", "For medlemmer"),
+  generateUrl("level1=0", "Medlemmer"),
   generateUrl("level1=1", "For frivillige"),
   generateUrl("level1=2", "Presse og politik"),
   generateUrl("level1=3", "Arbejdsliv"),

@@ -5,8 +5,8 @@
 
 <div id="kategoriVisning">
     <div class="kategoriBox">
-        <img src="images/brahms.jpg" title="Violinkoncert"/>
-        <h2><a href="#">Violinkoncert (Brahms)</a></h2>
+        <a href="?level1=0&amp;level2=2&amp;level3=0&amp;itemID=4"><img src="images/item_4.jpg" title="Violinkoncert"/>
+        <h2>Violinkoncert (Brahms)</h2></a>
         Im in ur concertz playing violinz!!11one!
     </div>
 </div>
