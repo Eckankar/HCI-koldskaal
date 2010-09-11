@@ -51,7 +51,7 @@ if (!$item = getItemByID($_GET['itemID'])) {
     <h1><?= htmlentities($item['varenavn']) ?></h1>
 </header>
 
-<dl>
+<dl class="itemInfo">
     <?php if (null !== $item['sted']): ?>
     <dt>Sted:</dt>
     <dd><?= htmlentities($item['sted']) ?></dd>
@@ -63,7 +63,7 @@ if (!$item = getItemByID($_GET['itemID'])) {
     <?php endif ?>
 
     <dt>Pris:</dt>
-    <dd><?= number_format($item['pris'] / 100, 2, ',', '.') ?></dd>
+    <dd><?= number_format($item['pris'], 2, ',', '.') ?> kr.</dd>
 
     <dt>Beskrivelse:</dt>
     <dd>
@@ -101,3 +101,7 @@ if (!$item = getItemByID($_GET['itemID'])) {
         quis, pharetra ut elit.</p>
     </dd>
 </dl>
+
+<div>
+    <a href="<?= htmlentities($_SERVER['REQUEST_URI']) ?>&amp;koeb=!">Køb</a>
+</div>

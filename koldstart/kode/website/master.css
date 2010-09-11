@@ -213,3 +213,18 @@ form.cmxform fieldset fieldset label {
 .kategoriBox a.visited, .kategoriBox a {
     text-decoration: none;
 }
+
+
+dl.itemInfo {
+    margin: 10px 0;
+}
+
+dl.itemInfo dt {
+    float: left;
+    width: 75px;
+    font-weight: bold;
+}
+
+dl.itemInfo dd {
+    margin-left: 85px;
+}
