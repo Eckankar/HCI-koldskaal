@@ -40,7 +40,7 @@ function generateUrl($urlData, $title) {
   }
 
   if($result["url"] === "") {
-    $result["url"] = 'href="#"';
+    $result["url"] = 'href="javascript:alert(\'unimplemented\');"';
   } else {
     $result["url"] = 'href="' . $result["url"] . '"';
   }
@@ -76,17 +76,20 @@ if($_VIEW["level1Id"] != 0) {
     generateUrl("level2=5", "Arrangementer"),
   );
 
-  if($_VIEW["level2Id"] != 2) {
+  if($_VIEW["level2Id"] == 1) {
     $_VIEW["level3Menus"] = $nonLinks;
-  } else {
+    array_unshift($_VIEW["level3Menus"], generateUrl("level3=0", "Bliv medlem"));
+  } else if($_VIEW["level2Id"] == 2) {
     $_VIEW["level3Menus"] = array(
       generateUrl("level3=0", "Rabatter og tilbud"),
-      generateUrl("level3=1", "Webshop"),
-      generateUrl("level3=2", "Lotteri"),
-      generateUrl("level3=3", "Støt ældresagen"),
-      generateUrl("level3=4", "Pensionistsagens medlemsbladen"),
-      generateUrl("level3=5", "Aktuelt krydsord"),
+      generateUrl("", "Webshop"),
+      generateUrl("", "Lotteri"),
+      generateUrl("", "Støt ældresagen"),
+      generateUrl("", "Pensionistsagens medlemsbladen"),
+      generateUrl("", "Aktuelt krydsord"),
     );
+  } else {
+    $_VIEW["level3Menus"] = $nonLinks;
   }
 }
 
@@ -96,8 +99,13 @@ $_VIEW["level3Breadcrumb"] = array();
 if($_VIEW["level1Id"] == 0 && $_VIEW["level2Id"] == 2 && $_VIEW["level3Id"] == 0) {
   ob_start();
   include "rabatter.php";
-  $_VIEW["content"] = ob_get_contents();
-  ob_end_clean();
+  $_VIEW["content"] = ob_get_clean();
+}
+
+if($_VIEW["level1Id"] == 0 && $_VIEW["level2Id"] == 1 && $_VIEW["level3Id"] == 0) {
+  ob_start();
+  include "medlemskab.php";
+  $_VIEW["content"] = ob_get_clean();
 }
 
 if($_GET["koncerter"] === "1") {
@@ -115,10 +123,10 @@ if($_GET["koncerter"] === "1") {
   );
   ob_start();
   include "koncerter.php";
-  $_VIEW["content"] = ob_get_contents();
-  ob_end_clean();
+  $_VIEW["content"] = ob_get_clean();
 }
-  
+
+
 
 
 include "site.php";
