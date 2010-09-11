@@ -1,6 +1,6 @@
 Task list:
 
-- Kategorivisning á la http://www.aeldresagen.dk/Medlemmer/Medlemstilbud/rabatterogtilbud/Sider/Default.aspx
+- Kategorivisning á la http://www.aeldresagen.dk/Medlemmer/Medlemstilbud/rabatterogtilbud/Sider/Default.aspx (Sebastian)
 - Underkategorivisning (koncerter) á la http://www.aeldresagen.dk/Medlemmer/Medlemstilbud/rabatterogtilbud/ferieogophold/Sider/default.aspx
 - Itemvisning (violinkoncert) á la http://www.aeldresagen.dk/Medlemmer/Medlemstilbud/rabatterogtilbud/ferieogophold/Danmark/Sider/SallingsundF%C3%A6rgekro.aspx
 - Købsside til koncerten
