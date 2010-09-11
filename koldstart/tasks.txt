@@ -1,11 +1,8 @@
 Task list:
-
-- Købsside til koncerten
-- Købsbekræftelse
-
-Lavere prioritetsopgaver:
-- Gør så der er forside på alle menupunkter.
+- Gør Brahms-koncertsiden mere brugervenlig mht købs-knappen
+- Gør kreditkorts-indtastningen pænere.
 - Gør så hovedmenuerne er tab-like
 - Organiser menuerne bedre
+- Gør så der er forside på alle menupunkter.
 - Valid html5
-
+- Tilføj en aktuel krydsord under Medlemstilbud
