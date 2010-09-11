@@ -5,18 +5,24 @@
 
 <div id="kategoriVisning">
     <div class="kategoriBox">
-        <img src="images/kategori_bekvemmeligheder.jpg" title="Bekvemmeligheder" alt="Bekvemmeligheder"/>
-        <h2>Bekvemmeligheder</h2>
+        <a href="#" alt="Gå til bekvemmeligheder" title="Gå til bekvemmeligheder">
+            <img src="images/kategori_bekvemmeligheder.jpg" title="Bekvemmeligheder" alt="Bekvemmeligheder"/>
+            <h2>Bekvemmeligheder</h2>
+        </a>
         Komfort til hjemmet
     </div>
     <div class="kategoriBox">
-        <img src="images/kategori_hjaelpemidler.jpg" title="Hjælpemidler" alt="Hjælpemidler"/>
-        <h2>Hjælpemidler</h2>
+        <a href="#" alt="Gå til hjælpemidler" title="Gå til hjælpemidler">
+            <img src="images/kategori_hjaelpemidler.jpg" title="Hjælpemidler" alt="Hjælpemidler"/>
+            <h2>Hjælpemidler</h2>
+        </a>
         Tryghed og hjælp i dagligdagen
     </div>
     <div class="kategoriBox">
-        <img src="images/kategori_kommunikation.jpg" title="Kommunikation" alt="Kommunikation"/>
-        <h2>Kommunikation</h2>
+        <a href="#" alt="Gå til kommunikation" title="Gå til kommunikation">
+            <img src="images/kategori_kommunikation.jpg" title="Kommunikation" alt="Kommunikation"/>
+            <h2>Kommunikation</h2>
+        </a>
         Kontakt til omverdenen
     </div>
     <div class="kategoriBox">
@@ -27,18 +33,24 @@
         Musik og oplevelser til sjælen
     </div>
     <div class="kategoriBox">
-        <img src="images/kategori_rejser.jpg" title="Rejser" alt="Rejser"/>
-        <h2>Rejser</h2>
+        <a href="#" alt="Gå til rejser" title="Gå til rejser">
+            <img src="images/kategori_rejser.jpg" title="Rejser" alt="Rejser"/>
+            <h2>Rejser</h2>
+        </a>
         Udforsk verden
     </div>
     <div class="kategoriBox">
-        <img src="images/kategori_transport.jpg" title="Transport" alt="Transport"/>
-        <h2>Transport</h2>
+        <a href="#" alt="Gå til transport" title="Gå til transport">
+            <img src="images/kategori_transport.jpg" title="Transport" alt="Transport"/>
+            <h2>Transport</h2>
+        </a>
         Kom omkring i dagligdagen
     </div>
     <div class="kategoriBox">
-        <img src="images/kategori_underholdning.jpg" title="Underholdning" alt="Underholdning"/>
-        <h2>Underholdning</h2>
+        <a href="#" alt="Gå til underholdning" title="Gå til underholdning">
+            <img src="images/kategori_underholdning.jpg" title="Underholdning" alt="Underholdning"/>
+            <h2>Underholdning</h2>
+        </a>
         Underholdning, museer og cirkus
     </div>
 </div>

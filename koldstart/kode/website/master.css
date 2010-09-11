@@ -15,12 +15,6 @@ body {
     padding: 22px 0;
 }
 
-h1, h2 {
-    font-size: 28px;
-    line-height: 44px;
-    padding: 22px 0;
-}
-
 p {
     padding-bottom: 22px;
 }
@@ -116,19 +110,19 @@ nav ul li.selected a {
 }
 
 .lightMenu2 {
-    background-color: #8AFF97;
+    background-color: #FF8547;
 }
 
 .darkMenu2 {
-    background-color: #33FF44;
+    background-color: #FF5500;
 }
 
 .lightMenu3 {
-    background-color: #FFDD55;
+    background-color: #7161FF;
 }
 
 .darkMenu3 {
-    background-color: #FFCC22;
+    background-color: #331CFF;
 }
 
 /*------------------------------
@@ -146,3 +140,86 @@ nav ul li.selected a {
     padding-right: 22px;
 }
 
+/*------------------------------
+=FORMS
+------------------------------*/
+
+form.cmxform fieldset {
+  margin-bottom: 10px;
+}
+
+form.cmxform legend {
+  padding: 0 2px;
+  font-weight: bold;
+}
+
+form.cmxform label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+}
+
+form.cmxform fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+
+form.cmxform fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
+form.cmxform fieldset fieldset {
+  border: none;
+  margin: 3px 0 0;
+}
+
+form.cmxform fieldset fieldset legend {
+  padding: 0 0 5px;
+  font-weight: normal;
+}
+
+form.cmxform fieldset fieldset label {
+  display: block;
+  width: auto;
+}
+
+form.cmxform em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+
+form.cmxform label {
+  width: 120px; /* Width of labels */
+}
+
+form.cmxform fieldset fieldset label {
+  margin-left: 123px; /* Width plus 3 (html space) */
+}
+
+/*--------------------------
+ * Categories 
+ *--------------------------*/
+.kategoriBox {
+    float: left;
+    padding: 10px;
+    margin-bottom: 2em;
+}
+
+.kategoriBox h2 {
+    padding: 0px;
+    font-size: 16pt;
+    line-height: 20pt; 
+    font-family: sans-serif;
+    color: #CD041B;
+}
+
+.kategoriBox h2.hover {
+    cursor: pointer;
+}
+
+.kategoriBox a.visited, .kategoriBox a {
+    text-decoration: none;
+}
