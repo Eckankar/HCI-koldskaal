@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Pensionistsagen</title>
     <link rel="stylesheet" href="master.css" type="text/css" media="screen" /> 
-    <link rel="stylesheet" href="registrering.css" type="text/css" media="screen" /> 
+<!--    <link rel="stylesheet" href="registrering.css" type="text/css" media="screen" /> -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://github.com/malsup/corner/raw/master/jquery.corner.js"></script>
     <script type="text/javascript" src="master.js"></script>
