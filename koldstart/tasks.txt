@@ -1,16 +1,11 @@
 Task list:
 
-- Underkategorivisning (koncerter) á la http://www.aeldresagen.dk/Medlemmer/Medlemstilbud/rabatterogtilbud/ferieogophold/Sider/default.aspx
-- Itemvisning (violinkoncert) á la http://www.aeldresagen.dk/Medlemmer/Medlemstilbud/rabatterogtilbud/ferieogophold/Danmark/Sider/SallingsundF%C3%A6rgekro.aspx
 - Købsside til koncerten
 - Købsbekræftelse
-- Registrationsside (Kristoffer)
-
 
 Lavere prioritetsopgaver:
 - Gør så der er forside på alle menupunkter.
 - Gør så hovedmenuerne er tab-like
 - Organiser menuerne bedre
 - Valid html5
-- Pænere farver
 
