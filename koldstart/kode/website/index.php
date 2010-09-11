@@ -40,7 +40,7 @@ function generateUrl($urlData, $title) {
   }
 
   if($result["url"] === "") {
-    $result["url"] = 'href="javascript:alert(\'unimplemented\');"';
+    $result["url"] = 'href="javascript:alert(\'not implemented\');"';
   } else {
     $result["url"] = 'href="' . $result["url"] . '"';
   }
