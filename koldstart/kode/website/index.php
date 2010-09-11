@@ -93,7 +93,23 @@ if($_VIEW["level1Id"] != 0) {
   }
 }
 
-$_VIEW["content"] = "<div>THIS IS PENSIIIOOOOOOOOOON!!!!!</div>";
+$snowmen = "<div style='padding-top: 10px; text-align:center; font-size:400%;'>";
+
+for($n = 0; $n < 4; $n++) {
+  $snowmen .= '<div style="margin-top: -3px;">';
+  for($k = 0; $k < 9; $k++) {
+    $snowmen .= '<span style="color: ';
+    $snowmen .= ($n+$k) % 2 ? "#F00" : "#0F0";
+    $snowmen .= '; background-color: ';
+    $snowmen .= ($n+$k) % 2 ? "#0F0" : "#F00";
+    $snowmen .= '; padding: 4px;">&#9731;</span>';
+  }
+  $snowmen .= "</div>";
+}
+
+$snowmen .= "</div>";
+
+$_VIEW["content"] = "<div>THIS IS PENSIIIOOOOOOOOOON!!!!!</div>" . $snowmen;
 $_VIEW["level3Breadcrumb"] = array();
 
 if($_VIEW["level1Id"] == 0 && $_VIEW["level2Id"] == 2 && $_VIEW["level3Id"] == 0) {
