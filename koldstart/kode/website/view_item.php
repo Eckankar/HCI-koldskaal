@@ -2,9 +2,11 @@
 $fp = fopen('varer.txt', 'r');
 $_items = array();
 while ($item = fgetcsv($fp, 0, ';')) {
-    $item = array_map(function($v) {
-        return $v === 'NULL' ? null : $v;
-    }, $item);
+    foreach ($item as $k => $v) {
+        if ($v === 'NULL') {
+            $item[$k] = null;
+        }
+    }
     $_items[(int)$item[0]] = array(
         'id'          => (int)$item[0],
         'leverandoer' => $item[1],
@@ -18,13 +20,13 @@ while ($item = fgetcsv($fp, 0, ';')) {
 }
 fclose($fp);
 
-function getItemsByField($field, $value)
-{
-    global $_items;
-    return array_filter($_items, function($item) use ($field, $value) {
-        return $item[$field] == $value;
-    });
-}
+//function getItemsByField($field, $value)
+//{
+//    global $_items;
+//    return array_filter($_items, function($item) use ($field, $value) {
+//        return $item[$field] == $value;
+//    });
+//}
 
 function getItemByID($id)
 {
