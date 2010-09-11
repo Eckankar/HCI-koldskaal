@@ -39,13 +39,19 @@ function generateUrl($urlData, $title) {
     $result["url"] = htmlentities($urlData);
   }
 
+  if($result["url"] === "") {
+    $result["url"] = 'href="#"';
+  } else {
+    $result["url"] = 'href="' . $result["url"] . '"';
+  }
+
   return $result;
 }
 
-$searchLinks =   array(
-  generateUrl("http://google.dk", "Google"),
-  generateUrl("http://yahoo.com", "Yahoo!"),
-  generateUrl("http://bing.com", "Bing"),
+$nonLinks =   array(
+  generateUrl("", "Nowhere"),
+  generateUrl("", "Noplace"),
+  generateUrl("", "Nothing"),
 );
 
 
@@ -58,8 +64,8 @@ $_VIEW["level1Menus"] = array(
 );
 
 if($_VIEW["level1Id"] != 0) { 
-  $_VIEW["level2Menus"] = $searchLinks;
-  $_VIEW["level3Menus"] = $searchLinks;
+  $_VIEW["level2Menus"] = $nonLinks;
+  $_VIEW["level3Menus"] = $nonLinks;
 } else {
   $_VIEW["level2Menus"] = array(
     generateUrl("level2=0", "Det gør vi for dig"),
@@ -71,7 +77,7 @@ if($_VIEW["level1Id"] != 0) {
   );
 
   if($_VIEW["level2Id"] != 2) {
-    $_VIEW["level3Menus"] = $searchLinks;
+    $_VIEW["level3Menus"] = $nonLinks;
   } else {
     $_VIEW["level3Menus"] = array(
       generateUrl("level3=0", "Rabatter og tilbud"),
@@ -84,13 +90,35 @@ if($_VIEW["level1Id"] != 0) {
   }
 }
 
+$_VIEW["content"] = "<div>THIS IS PENSIIIOOOOOOOOOON!!!!!</div>";
+$_VIEW["level3Breadcrumb"] = array();
+
 if($_VIEW["level1Id"] == 0 && $_VIEW["level2Id"] == 2 && $_VIEW["level3Id"] == 0) {
-  $_VIEW["content"] = "<div>Teh webshap</div>";
-} else {
-  $_VIEW["content"] = "<div>THIS IS PENSIIIOOOOOOOOOON!!!!!</div>";
+  ob_start();
+  include "rabatter.php";
+  $_VIEW["content"] = ob_get_contents();
+  ob_end_clean();
 }
 
-$_VIEW["level3Breadcrumb"] = array();
+if($_GET["koncerter"] === "1") {
+  $_VIEW["level3Breadcrumb"] = array(
+    generateUrl("level3=0", "Rabatter og tilbud"),
+  );
+  $_VIEW["level3Menus"] = array(
+    generateUrl("level3=0&koncerter=1", "Koncerter"),
+    generateUrl("", "Hjælpemidler"),
+    generateUrl("", "Kommunikation"),
+    generateUrl("", "Bekvemmelighed"),
+    generateUrl("", "Transport"),
+    generateUrl("", "Underholdning"),
+    generateUrl("", "Rejser"),
+  );
+  ob_start();
+  include "koncerter.php";
+  $_VIEW["content"] = ob_get_contents();
+  ob_end_clean();
+}
+  
 
 
 include "site.php";
