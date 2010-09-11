@@ -228,3 +228,17 @@ dl.itemInfo dt {
 dl.itemInfo dd {
     margin-left: 85px;
 }
+
+#prisliste {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#prisliste caption {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#prisliste th {
+    text-align: left;
+}
