@@ -107,5 +107,5 @@ if (!$item = getItemByID($_GET['itemID'])) {
 </dl>
 
 <div>
-    <a href="<?= htmlentities($_SERVER['REQUEST_URI']) ?>&amp;koeb=!">Køb</a>
+    <a href="<?= htmlentities($_SERVER['REQUEST_URI']) ?>&amp;koeb=1" id="purchase">Køb</a>
 </div>
