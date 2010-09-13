@@ -109,7 +109,12 @@ for($n = 0; $n < 4; $n++) {
 
 $snowmen .= "</div>";
 
-$_VIEW["content"] = "<div>THIS IS PENSIIIOOOOOOOOOON!!!!!</div>" . $snowmen;
+$_VIEW["content"] = "<div>THIS IS PENSIIIOOOOOOOOOON!!!!!</div>";
+
+if($_VIEW["level1Id"] != 0) {
+  $_VIEW["content"] .= $snowmen;
+}
+
 $_VIEW["level3Breadcrumb"] = array();
 
 if($_VIEW["level1Id"] == 0 && $_VIEW["level2Id"] == 2 && $_VIEW["level3Id"] == 0) {
