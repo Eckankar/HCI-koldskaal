@@ -179,7 +179,6 @@ if(isset($_GET["koeb"])) {
     generateUrl("level3=0", "Rabatter og tilbud"),
     generateUrl("level3=0&koncerter=1", "Koncerter"),
     generateUrl("level3=0&violin=1", "Violinkoncerter"),
-    generateUrl("level3=0&itemID=4", "Violinkoncert (Brahms)"),
   );
 
   $_VIEW["level3Menus"] = array(
