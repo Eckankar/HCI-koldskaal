@@ -22,13 +22,25 @@ p {
 nav {
     left: 0;
     width: 100%;
-    background-color: #eee;
+    /*background-color: #eee;*/
 }
 
 nav ul {
     margin: 0 auto;
     width: 100%;
     list-style: none;
+}
+
+#level1 li {
+/*    margin-right: 10px;*/
+}
+
+#level1 li.selected {
+    padding-top: 10px;
+}
+
+#level1 li.unselected {
+    margin-top: 10px;
 }
 
 nav ul li {
@@ -56,7 +68,7 @@ nav ul li.selected a {
 
 .menuBar {
     width: 100%;
-    height: .5em;
+    height: 1em;
     clear: both;
 }
 
