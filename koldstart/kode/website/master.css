@@ -242,3 +242,9 @@ dl.itemInfo dd {
 #prisliste th {
     text-align: left;
 }
+
+#purchase {
+    padding: 12px;
+    border: 2px solid #F56;
+    background: #F9A;
+}
