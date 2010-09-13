@@ -160,7 +160,7 @@ input[type="radio"] {
         </form>
         <div style="clear: both"></div>
     </div>
-    <div class="orderInfo" style="margin-top: 1em;">
+    <div class="orderInfo" style="margin-top: .5em;">
         <div id="insideOrderInfo">
             <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at ligula lectus. Phasellus dapibus enim eu est tempus dignissim. Aliquam erat volutpat. Donec cursus, augue eget faucibus fermentum, purus arcu interdum tellus, eu accumsan nisl nunc eu elit. In ipsum tellus, commodo a rhoncus vel, molestie in sem. Maecenas in sapien nisl, vitae gravida sapien. Pellentesque in augue dui. Aliquam et nunc nisi, eget rhoncus ante. In porttitor egestas odio eget bibendum. Praesent sagittis urna id risus placerat et porttitor nisi tempus. Mauris congue fringilla massa, sit amet tempus sapien imperdiet et. Mauris nec arcu ac sapien pulvinar volutpat. Mauris egestas hendrerit cursus.
