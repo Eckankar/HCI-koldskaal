@@ -22,13 +22,25 @@ p {
 nav {
     left: 0;
     width: 100%;
-    background-color: #eee;
+    /*background-color: #eee;*/
 }
 
 nav ul {
     margin: 0 auto;
     width: 100%;
     list-style: none;
+}
+
+#level1 li {
+/*    margin-right: 10px;*/
+}
+
+#level1 li.selected {
+    padding-top: 10px;
+}
+
+#level1 li.unselected {
+    margin-top: 10px;
 }
 
 nav ul li {
@@ -56,7 +68,7 @@ nav ul li.selected a {
 
 .menuBar {
     width: 100%;
-    height: .5em;
+    height: 1em;
     clear: both;
 }
 
@@ -144,44 +156,44 @@ nav ul li.selected a {
 =FORMS
 ------------------------------*/
 
-form.cmxform fieldset {
+.cmxform fieldset {
   margin-bottom: 10px;
   padding: 5px;
 }
 
-form.cmxform legend {
+.cmxform legend {
   padding: 0 2px;
   font-weight: bold;
 }
 
-form.cmxform label {
+.cmxform label {
   display: inline-block;
   line-height: 1.8;
   vertical-align: top;
 }
 
-form.cmxform fieldset ol {
+.cmxform fieldset ol {
   margin: 0;
   padding: 0;
 }
 
-form.cmxform fieldset li {
+.cmxform fieldset li {
   list-style: none;
   padding: 5px;
   margin: 0;
 }
 
-form.cmxform em {
+.cmxform em {
   font-weight: bold;
   font-style: normal;
   color: #f00;
 }
 
-form.cmxform label {
+.cmxform label {
   width: 220px; /* Width of labels */
 }
 
-form.cmxform fieldset fieldset label {
+.cmxform fieldset fieldset label {
   margin-left: 223px; /* Width plus 3 (html space) */
 }
 
@@ -241,4 +253,10 @@ dl.itemInfo dd {
 
 #prisliste th {
     text-align: left;
+}
+
+#purchase {
+    padding: 12px;
+    border: 2px solid #F56;
+    background: #F9A;
 }
