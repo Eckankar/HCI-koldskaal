@@ -98,7 +98,7 @@
     margin-right: -2px;
 }
 
-#orderInfo {
+.orderInfo {
     width: 100%;
     border: 1px solid gray;
 }
@@ -138,7 +138,7 @@ input[type="radio"] {
 </tbody></table>
 </header>
 <? if ($step == 1): ?>
-    <div id="orderInfo">
+    <div class="orderInfo">
         <img src="http://pensionist.coq.dk/images/item_4.jpg" alt="Violinkoncert (Brahms)" title="Violinkoncert (Brahms)" class="orderImage"/>
         <h3>Violinkoncert (Brahms)</h3>
         <ul id="orderDetailsList">
@@ -160,13 +160,18 @@ input[type="radio"] {
         </form>
         <div style="clear: both"></div>
     </div>
+    <div class="orderInfo" style="margin-top: 1em;">
+        <div id="insideOrderInfo">
+            <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at ligula lectus. Phasellus dapibus enim eu est tempus dignissim. Aliquam erat volutpat. Donec cursus, augue eget faucibus fermentum, purus arcu interdum tellus, eu accumsan nisl nunc eu elit. In ipsum tellus, commodo a rhoncus vel, molestie in sem. Maecenas in sapien nisl, vitae gravida sapien. Pellentesque in augue dui. Aliquam et nunc nisi, eget rhoncus ante. In porttitor egestas odio eget bibendum. Praesent sagittis urna id risus placerat et porttitor nisi tempus. Mauris congue fringilla massa, sit amet tempus sapien imperdiet et. Mauris nec arcu ac sapien pulvinar volutpat. Mauris egestas hendrerit cursus.
+            </p>
+            <p>
+Nulla ipsum nunc, scelerisque id fermentum non, egestas et risus. Donec accumsan, sapien eget rutrum ullamcorper, ante ligula porttitor diam, at posuere nunc arcu sit amet orci. In vestibulum, lectus vel ullamcorper rhoncus, lorem sem feugiat nibh, nec tempus ipsum mi sit amet arcu. Integer eu varius lorem. Ut vel elit metus, ut rhoncus ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris et dui eu mi placerat condimentum in sit amet quam. Quisque congue nulla lacus. Integer fermentum, sem euismod rhoncus pretium, quam felis bibendum eros, non consequat leo nibh id nunc. Vestibulum dictum, velit non varius rutrum, nisi nibh iaculis nisl, at accumsan odio felis in arcu. Duis mi ipsum, rutrum blandit volutpat in, pretium sed metus. Integer dictum est ut urna rhoncus sed consectetur metus tempus. Donec eget turpis enim, nec elementum est. Integer viverra, nunc nec accumsan congue, nunc turpis imperdiet sapien, vel elementum ipsum mauris et tellus. Aliquam vitae enim eleifend libero placerat mattis eu a eros. Mauris consequat velit id tellus euismod viverra. Integer quam magna, sollicitudin nec accumsan quis, pharetra ut elit.
+            </p>
+        </div>
+    </div>
 <? elseif ($step == 2): ?>
-    <style>
-        #insideOrderInfo {
-            padding: 0.5em;
-        }
-    </style>
-    <div id="orderInfo">
+    <div class="orderInfo">
         <div id="insideOrderInfo">
             <form style="display: inline">
             <div class="addrCont">
@@ -226,7 +231,7 @@ input[type="radio"] {
         </div>    
     </div>
 <? elseif ($step == 3): ?>
-<div id="orderInfo">
+<div class="orderInfo">
     <div id="insideOrderInfo">
         <form class="cmxform">
             <fieldset>
@@ -271,7 +276,7 @@ input[type="radio"] {
     </div>
 </div>
 <? elseif ($step == 4): ?>
-<div id="orderInfo" style="min-height: 100px">
+<div class="orderInfo" style="min-height: 100px">
     <div id="insideOrderInfo">
     Din ordre er hermed modtaget.
     
