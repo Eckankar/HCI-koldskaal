@@ -122,7 +122,7 @@ input[type="radio"] {
 </style>
 <!-- end of progress bar stuff -->
 <header id="innerOrderHeader">
-<h1>Køb af billetter til Violinkoncert (Brahms)</h1>
+<h1><?= $step != 1 ? 'Køb af billetter til' : '' ?> Violinkoncert (Brahms)</h1>
 <table width="100%" cellpadding="0" cellspacing="0" border="0" id="progressBar">
   <tbody><tr valign="center">
     <td id="steps">
