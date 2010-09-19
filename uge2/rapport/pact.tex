@@ -1,38 +1,61 @@
 \section{PACT-analyse}
-noter, alt herunder er bare lort jeg skriver for at lave noget :D (kristofffer)
 
-Personer:
-Primære målgruppe:
-pensionister: 60+ år, teknisk svage, svagtseende / dårlig hørelse, dårlig fingerfærdighed, langsomme til at lære.
-pårørende: 20-60 år, teknisk stærke-svage,
-ansatte: 20-60 år, teknisk middel-svage,
+\subsection{Personer}
+Den primære målgruppe for hjemmesiden er:
+\begin{itemize}
+\item pensionister: 60+ år, teknisk svage, svagtseende / dårlig hørelse, dårlig fingerfærdighed, langsomme til at lære.
+\item pårørende: 20-60 år, teknisk meget svingende,
+\item ansatte: 20-60 år, teknisk middel-svage,
+\end{itemize}
 
-
-Aktiviteter:
-Vedligeholdelse af hjemmesiden (ansatte)
-Køb af produkter/tilbud (medlemmer)
-Oprettelse af medlemsskab (pensionister/pårørende)
-Få nyheder / læse om pensionistsagen (pensionister/pårørende)
-
-
-Kontekster:
-Fysiske:
-Siddende ved hjemmecomputer
-Fællescomputer i plejehjem (nogen forskel?)
-
-Sociale:
-Alene (pensionister/pårørende)
-Flere pensionister i fællesskab
-pårørende / plejepersonale + pensionist
-
-Organisationel:
-Vedligeholdelse
-Tilføjelse af nye elementer (nyheder, produkter i webshop etc.)
-Adgang til medlemsregister (privacy issues)
+\subsection{Aktiviteter}
+Siden vil skulle bruges til følgende aktiviteter:
+\begin{itemize}
+\item Vedligeholdelse af hjemmesiden (ansatte)
+\item Køb af produkter/tilbud (medlemmer)
+\item Oprettelse af medlemsskab (pensionister/pårørende)
+\item Få nyheder / læse om pensionistsagen (pensionister/pårørende)
+\end{itemize}
 
 
-Teknologi:
-Almindelig browser på stationær computer
-Mobile enheder (smartphones, "iPads"/touchscreens)
-API's til integration med andet software
-Database til webshop / medlemsregister, skal virke med eksisterende systemer
+\subsection{Kontekster}
+\paragraph{Den fysisk kontekst} for brug af hjemmesiden vil typisk være en enkelt person
+siddende foran en stationær computer. For pårørende (og muligvis ansatte) kunne
+man dog også forestille sig, at de ville bruge mobile enheder til at tilgå
+siden, hvorved de fysiske omgivelser er langt mere uforudsigelige.
+
+\paragraph{De sociale kontekster} for siden er også meget enkeltstående -
+man vil typisk være alene om at tilgå siden som desuden det desuden ikke er
+planlagt skal have et socialt aspekt. Man kan dog forestille sig at pensionister
+ville få hjælp til at tilgå siden (enten direkte eller over telefon) eller
+at folk sammen prøver at finde ud af hvilke tilbud der er relevante (men
+ikke direkte snakker om hjemmesiden). Desuden er der den sociale kontekst de
+ansatte i pensionistsagen har i forbindelse med arbejdet på siden.
+
+
+\paragraph{Fra et organisationelt} synspunkt vil hjemmesiden i sig selv ikke
+umiddelbart have en specielt stor indflydelse, da de ansatte i organisationen
+sandsynligvis ikke vil bruge hjemmesiden direkte, men vil bruge andre
+værktøjer til deres daglige arbejde. Den vil dog potentielt have en stor
+indirekte indflydelse, idet den vil kunne fungere som den primære kontaktflade
+mellem organisationen og dens medlemmer og potentielle medlemmer. Man kunne
+dog også forestille sig at hjemmesidens funktionalitet blev udvidet nok, til
+at de ansatte ville kunne organisere den primære del af deres arbejde omkring
+siden. Derudover vil det naturligvis skulle være nødvendigt for de ansatte at
+vedligeholde indholdet på siden.
+
+\subsection{Teknologi}
+Hjemmesiden skal ideelt set understøttes af de standardfølgende webbrowsere, samt andre
+store browsere på almindelige stationære systemer. Desuden skal der tilstræbes
+understøttelse af mere ``moderne'' enheder, herunder især mobile enheder såsom
+smartphones eller ``iPads''.
+
+Til dette formål vil det være en fordel, hvis selve indholdet og form i så høj
+grad som muligt blev holdt adskilt, idet det på denne måde er nemmere at senere
+ændre siden, hvis det skulle vise sig at den ikke virkede på bestemte systemer.
+
+Desuden kunne man forestille sig, at det ville være praktisk med API'er til
+andet software - både software benyttet af de ansatte og af andre hjemmeside
+(samt eventuelt til medlemmerne på et senere tidspunkt).
+
+Derudover skal der laves integration med allerede eksisterende systemer.
