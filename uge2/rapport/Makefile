@@ -1,5 +1,5 @@
 GRAPHS=
-TARGET=koldstart.pdf
+TARGET=uge2.pdf
 TEXFILES=*.tex
 HELPFILES=
 
