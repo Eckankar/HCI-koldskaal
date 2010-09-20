@@ -24,6 +24,7 @@ $(document).ready(function() {
         var l2 = $("#level2 li.selected");
         l2.prev().corner("br cc:#" + RGBtoHex(l2.css("background-color")));
         l2.next().corner("bl cc:#" + RGBtoHex(l2.css("background-color")));
+        $('#content').corner("tl cc:#" + RGBtoHex(l2.css("background-color")));
     }, 0);
         
 });
