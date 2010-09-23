@@ -1,0 +1,10 @@
+- Hvor ofte bruger du en computer?
+- Hvor mange timer om ugen bruger du på Internettet?
+- Hvad lægger du vægt på i forbindelse med brug af sider på Internettet?
+- Har du nogensinde brugt Ældre Sagens hjemmeside?
+    == Hvis nej:
+        - Kunne du forestille dig at bruge Ældre Sagens hjemmeside?
+    == Hvis ja:
+        - I hvilken forbindelse brugte du siden?
+- Hvad kunne være interessant for dig på sådan en side?
+- Ældre Sagen tilbyder blandt andre ting rabatter på koncerter, hjælpemidler og lignende. Kunne du forestille dig at du ville bruge siden i den forbindelse?
