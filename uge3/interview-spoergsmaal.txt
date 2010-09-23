@@ -1,3 +1,7 @@
+- Alder?
+- Beskæftigelse?
+    == Hvis penisoneret:
+        - Beskæftigelse før pension?
 - Hvor ofte bruger du en computer?
 - Hvor mange timer om ugen bruger du på Internettet?
 - Hvad lægger du vægt på i forbindelse med brug af sider på Internettet?
@@ -8,3 +12,43 @@
         - I hvilken forbindelse brugte du siden?
 - Hvad kunne være interessant for dig på sådan en side?
 - Ældre Sagen tilbyder blandt andre ting rabatter på koncerter, hjælpemidler og lignende. Kunne du forestille dig at du ville bruge siden i den forbindelse?
+- Hvilken information ville du ønske at se fremhævet i forbindelse med køb af følgende ting?:
+    - Koncertbillet
+    - Høreapparat
+    - Ferierejse
+    - Cirkusbillet
+    - Social udflugt
+
+_______
+
+Jeg vil nu vise dig Ældre Sagens hjemmeside som den er lige nu.
+
+- Hvad er din første indtryk af siden?
+- Forestil dig at du gerne vil være medlem af Ældre Sagen. Prøv at finde information om at blive medlem.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+    - Kommentarer?
+- Prøv at finde siden med medlemstilbud.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+    - Kommentarer?
+- Du ønsker at købe en billet til musicalen ''Sværdet i Stenen´´. Prøv at finde information om dette.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+    - Kommentarer?
+- Hvordan var den generelle oplevelse af at bruge siden?
+
+_______
+
+Jeg vil nu vise dig en prototype med forslag til ændringer af Ældre Sagens hjemmeside.
+Det jeg vil vise dig er en prototype, hvilket vil sige at det ikke er en komplet side.
+Du vil derfor ricikere at kunne blive udsat for beskeder om at ting ikke eksisterer endnu og manglende information om ting.
+
+- Hvad er din første indtryk af siden?
+- Forestil dig at du gerne vil være medlem af Ældre Sagen. Prøv at finde information om at blive medlem.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+    - Kommentarer?
+- Prøv at finde siden med medlemstilbud.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+    - Kommentarer?
+- Du ønsker at købe en billet til en . Prøv at finde information om dette.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+    - Kommentarer?
+- Hvordan var den generelle oplevelse af at bruge siden?
