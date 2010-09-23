@@ -39,7 +39,7 @@ _______
 
 Jeg vil nu vise dig en prototype med forslag til ændringer af Ældre Sagens hjemmeside.
 Det jeg vil vise dig er en prototype, hvilket vil sige at det ikke er en komplet side.
-Du vil derfor ricikere at kunne blive udsat for beskeder om at ting ikke eksisterer endnu og manglende information om ting.
+Du vil derfor risikere at kunne blive udsat for beskeder om at ting ikke eksisterer endnu og manglende information om ting.
 
 - Hvad er din første indtryk af siden?
 - Forestil dig at du gerne vil være medlem af Ældre Sagen. Prøv at finde information om at blive medlem.
@@ -48,7 +48,7 @@ Du vil derfor ricikere at kunne blive udsat for beskeder om at ting ikke eksiste
 - Prøv at finde siden med medlemstilbud.
     - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
     - Kommentarer?
-- Du ønsker at købe en billet til en . Prøv at finde information om dette.
+- Du ønsker at købe en billet til en. Prøv at finde information om dette.
     - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
     - Kommentarer?
 - Hvordan var den generelle oplevelse af at bruge siden?
