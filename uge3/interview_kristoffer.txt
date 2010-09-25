@@ -1,0 +1,82 @@
+- Navn
+  Erik Andersen
+- Alder?
+  70 år
+- Beskæftigelse?
+    == Hvis penisoneret:
+        - Beskæftigelse før pension?
+  Taxachauffør / vognmand
+- Hvor ofte bruger du en computer?
+  1 gang om dagen
+- Hvor mange timer om ugen bruger du på Internettet?
+  8 timer
+- Hvad lægger du vægt på i forbindelse med brug af sider på Internettet?
+  Finder information (aviser) / tilbudsaviser
+- Har du nogensinde brugt Ældre Sagens hjemmeside?
+    == Hvis nej: 
+        - Kunne du forestille dig at bruge Ældre Sagens hjemmeside?
+        nej
+    == Hvis ja:
+        - I hvilken forbindelse brugte du siden?
+- Hvad kunne være interessant for dig på sådan en side?
+  Politik
+- Ældre Sagen tilbyder blandt andre ting rabatter på koncerter, hjælpemidler og lignende. Kunne du forestille dig at du ville bruge siden i den forbindelse?
+  nej
+- Hvilken information ville du ønske at se fremhævet i forbindelse med køb af følgende ting?:
+    - Koncertbillet
+    - Høreapparat
+    - Ferierejse
+    - Cirkusbillet
+    - Social udflugt
+
+_______
+
+Jeg vil nu vise dig Ældre Sagens hjemmeside som den er lige nu.
+
+- Hvad er din første indtryk af siden?
+  Fødselsdagslotteri, overskuelig: ja
+- Forestil dig at du gerne vil være medlem af Ældre Sagen. Prøv at finde information om at blive medlem.
+    Bliv medlem fra forsiden. --> kontakt ringe til medlemsrådgivning
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+    1
+    - Kommentarer?
+    nej
+- Prøv at finde siden med medlemstilbud.
+    Kigger i bunden af siden, rejsetilbud, nyhedsbrev.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+    - Kommentarer?
+- Du ønsker at købe en billet til musicalen ''Sværdet i Stenen´´. Prøv at finde information om dette.
+    Søg arrangementer -> find arrangement til højre, skriver navnet i formularen. Tog lang tid at finde kommune og udfylde skema.
+    Søgetekst forsvandt ved tryk på knap. Går ind på "det sker" (lidt tilfældigt). Vælger hovedstad og får et nyt vindue. 
+    Kan ikke læse teksten, og kan ikke finde ud af at bladre i læseren. Fandt ikke webshoppen.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+    10
+    - Kommentarer?
+    Ville læse i avisen i stedet. Fik ikke det rigtige emne.
+- Hvordan var den generelle oplevelse af at bruge siden?
+  Dårlig, nogle ting er nemme men ikke den der blev testet.
+
+_______
+
+Jeg vil nu vise dig en prototype med forslag til ændringer af Ældre Sagens hjemmeside.
+Det jeg vil vise dig er en prototype, hvilket vil sige at det ikke er en komplet side.
+Du vil derfor risikere at kunne blive udsat for beskeder om at ting ikke eksisterer endnu og manglende information om ting.
+
+- Hvad er din første indtryk af siden?
+- Forestil dig at du gerne vil være medlem af Ældre Sagen. Prøv at finde information om at blive medlem.
+    Ramte medlemstilbud i stedet. Forstår ikke hvordan tabs virker, prøver det gør vi for dig igen. Rammer medlemstilbud igen.
+    Rammer endelig medlemsservice (dårligt navn?)
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+    2
+    - Kommentarer?
+    Skift til bliv medlem
+- Prøv at finde siden med medlemstilbud.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+    - Kommentarer?
+- Du ønsker at købe en billet til en. Prøv at finde information om dette.
+    Rammer arrangementer. Går ind under medlemstilbud og finder koncerter. Læser al teksten over inden han går videre.
+    Trykker ind på koncerter. 
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+    - Kommentarer?
+- Hvordan var den generelle oplevelse af at bruge siden?
+    Fin.
