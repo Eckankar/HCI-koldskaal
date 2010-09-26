@@ -1,0 +1,54 @@
+- Alder? 1940, 70 år
+- Beskæftigelse? pensioneret.
+    == Hvis penisoneret:
+        - Beskæftigelse før pension? 2000, pensioneret. landsformand i lejerbo indtil 2010. skolelærer i seminariet. ansat i undervisningsministeriet som konsulent.
+- Hvor ofte bruger du en computer? hver dag, mange mails hver. abbonerer på blandt økonomibreve. politikken og jyllandsposten. feeds. bijob som jounalist. mellem 3 og 7 artikler om ugen. photograferer mig, også til egne artikler. photojournalist. facebook næsten hver dag. skriver blogs. registrerer blodtryk.
+- Hvor mange timer om ugen bruger du på Internettet? 1-2 timer om dagen. alle økonomiske transakioner på netbank.
+- Hvad lægger du vægt på i forbindelse med brug af sider på Internettet? at han får reele oplysninger, at han kan stole på oplysningerne. er tilfreds med wikipedia, på trods af enkelte fejl.
+- Har du nogensinde brugt Ældre Sagens hjemmeside? ja, somme tider. på grund af sygdom. mener at ældre sagen gør et godt stykke arbejde. kender siden godt, er medlem.
+    == Hvis nej:
+        - Kunne du forestille dig at bruge Ældre Sagens hjemmeside?
+    == Hvis ja:
+        - I hvilken forbindelse brugte du siden? almindeligt orienteret.
+- Hvad kunne være interessant for dig på sådan en side? ikke noget specielt. ældresagen har et hav af oplysninger, kunne finde på at lede efter en bog. har masser af informationer. holger gør nogle gode ting.
+- Ældre Sagen tilbyder blandt andre ting rabatter på koncerter, hjælpemidler og lignende. Kunne du forestille dig at du ville bruge siden i den forbindelse? har ikke brugt dem. ikke ret mange i nordjylland. får koupon-ting.
+- Hvilken information ville du ønske at se fremhævet i forbindelse med køb af følgende ting?:
+    - Koncertbillet, hvor han skal sidde, vil have en god plads. om man kan spise før eller efter. om han får programmet, eller om det skal købes særskilt.
+    - Høreapparat, offentligt tilskud? offentligt eller betale selv? for smarte tilbud? vil have det over det offentlige: bedre service. har det selv over det offentlige, kone købt privat.
+    - Ferierejse, informationer om det er for gangbesværede. kørestol, stok, roulator.
+    - Cirkusbillet, kan ikke komme i cirkus, dårligt gåenende.
+    - Social udflugt, ved det ikke.
+
+_______
+
+Jeg vil nu vise dig Ældre Sagens hjemmeside som den er lige nu.
+
+- Hvad er din første indtryk af siden? kan let overskue.
+- Forestil dig at du gerne vil være medlem af Ældre Sagen. Prøv at finde information om at blive medlem. gik hurtigt.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær. 1-2.
+    - Kommentarer?
+- Prøv at finde siden med medlemstilbud.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær. 1
+    - Kommentarer?
+- Du ønsker at købe en billet til musicalen ''Sværdet i Stenen´´. Prøv at finde information om dette. søger på det. matcher ikke. medlemstilbud og arrangermrnter. arrangementer. findes ikke. medlemsservice. hellrt imgen. ældresagen work shop. arrangementer. intet. søger igen. lykkes ikke.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær. kunne ikke gennemføre.
+    - Kommentarer?
+- Hvordan var den generelle oplevelse af at bruge siden? god. overskuelig. der er rent faktisk meget godt.
+
+_______
+
+Jeg vil nu vise dig en prototype med forslag til ændringer af Ældre Sagens hjemmeside.
+Det jeg vil vise dig er en prototype, hvilket vil sige at det ikke er en komplet side.
+Du vil derfor risikere at kunne blive udsat for beskeder om at ting ikke eksisterer endnu og manglende information om ting.
+
+- Hvad er din første indtryk af siden? trykkede www først. den er sjov. den er helt fin. pensionist sagen har bedre navn.
+- Forestil dig at du gerne vil være medlem af Ældre Sagen. Prøv at finde information om at blive medlem.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær. hvad gør vi for dig. medlemsservice. ikke svært. 1
+    - Kommentarer?
+- Prøv at finde siden med medlemstilbud. var på siden. pensionistsagen er mere overskuelig! MEGET BEDRE OVERSIGT!
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær. 1
+    - Kommentarer?
+- Du ønsker at købe en billet til en. Prøv at finde information om dette.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær. 1
+    - Kommentarer?
+- Hvordan var den generelle oplevelse af at bruge siden? positiv, hurtig, bedre overblik over tingene.
