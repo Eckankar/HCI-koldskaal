@@ -1,5 +1,6 @@
 Bryder sig ikke om ting der ændrer sig på skærmen uden at have bedt om det.
-
 Det var lidt forvirrende at finde en musical under "Medlemstilbud" i stedet for "Arrangementer".
-
 Søgeformular virkede ikke med "Enter"-knap (ældresagens hjemmeside).
+"Not implemented" er forvirrende.
+Godt med runde hjørner.
+Flot logo på Pensionistsagen.
