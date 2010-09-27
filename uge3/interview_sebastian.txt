@@ -1,0 +1,110 @@
+- Alder?
+    53
+- Beskæftigelse?
+    Læge
+- Hvor ofte bruger du en computer?
+    Dagligt
+- Hvor mange timer om ugen bruger du på Internettet?
+    På nettet hele dagen i forbindelse med sin praksis.
+    10 timer om ugen, men mere hvis man tæller EDB-systemet med.
+- Hvad lægger du vægt på i forbindelse med brug af sider på Internettet?
+    At de er enkle og at der ikke står for meget tekst.
+    At de har søgebar.
+    At overskriften står med store typer og resten er mindre.
+- Har du nogensinde brugt Ældre Sagens hjemmeside?
+    Nej.
+- Kunne du forestille dig at bruge Ældre Sagens hjemmeside?
+    "Ja, hvis jeg enten skulle søge i forb. med mine forældre end mit arbejde, da det ej går på nettet"
+- Hvad kunne være interessant for dig på sådan en side?
+    Lovgivning, aktivitetsmuligheder (rejser, gymnastik, ...) i de kommuner de bor, adresse på borgerservice.
+    Besøgsvenner, måske? Tilmelding?
+    Lovgivning mht hjælpemidler og medicin, tandlæge, briller.
+- Ældre Sagen tilbyder blandt andre ting rabatter på koncerter, hjælpemidler og lignende. Kunne du forestille dig at du ville bruge siden i den forbindelse?
+    Ja, det kunne godt tænkes, men jeg var ikke klar over det.
+- Hvilken information ville du ønske at se fremhævet i forbindelse med køb af følgende ting?:
+    - Koncertbillet
+        Hvem der spiller, musiktype, pris, sted, transportmuligheder?
+    - Høreapparat
+        Hvor jeg skulle gå hen, pris, hvem får tilskud?
+        Min far får dem fx gratis
+    - Ferierejse
+        Land, byen, prisen, se om der grupperejser?
+    - Cirkusbillet
+        Navn, hvor det er, pris, muligheder for at få transport?
+    - Social udflugt
+        Hvilket emne det er, hvorhen, længde, transport, pris.
+        Det med transport er meget vigtigt med de ældre.
+        Mht transport: Er der mulighed for rolator, kørestol, pårørende (fx om man kan få barnebarn til at skubbe en igennem Tivoli.)
+
+_______
+
+Jeg vil nu vise dig Ældre Sagens hjemmeside som den er lige nu.
+
+- Hvad er din første indtryk af siden?
+    Der er alt for mange informationer, den er rodet, der er for mange farver
+    Teksten er for lille hvis du ser dårligt.
+    Det er relevante rubrikker, men det hele flakker.
+- Forestil dig at du gerne vil være medlem af Ældre Sagen. Prøv at finde information om at blive medlem.
+    "Der står deroppe Bliv Medlem."
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+    "Den var ok, der ved jeg ikke, 3. Kiggede først i toppen ved medlemmer, men så kiggede jeg over og fandt den. Jeg skulle lede efter den."
+    - Kommentarer?
+- Prøv at finde siden med medlemstilbud.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+        3, faktisk måske 4.
+    - Kommentarer?
+        Der skal jeg også lede efter den. Der står for meget. Grå er ikke specielt fremhævet. Grå forsvinder ind.
+        Men jeg er vant til at kigge på en webside.
+- Du ønsker at købe en billet til musicalen ''Sværdet i Stenen´´. Prøv at finde information om dette.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+        6'er
+    - Kommentarer?
+        "Aaarh, den er ikke nem, den er ikke.". Der skal du være vant til at kigge på en webside. Den er ikke nem.
+- Hvordan var den generelle oplevelse af at bruge siden?
+    Når jeg tænker på at den henvender sig til ældre er den svært fremkommelig.
+    Noget af det er lille tekst.
+    For meget informationer på forsiden.
+    Du skal være en ældre trænet webside-bruger for at synes at den er nem.
+    Min mor ville være 5 timer om at finde rundt på den.
+
+_______
+
+Jeg vil nu vise dig en prototype med forslag til ændringer af Ældre Sagens hjemmeside.
+Det jeg vil vise dig er en prototype, hvilket vil sige at det ikke er en komplet side.
+Du vil derfor risikere at kunne blive udsat for beskeder om at ting ikke eksisterer endnu og manglende information om ting.
+
+- Hvad er din første indtryk af siden?
+    Hidsige farver. Mere dæmpede passer nok bedre til ældre. Unge farver.
+    Fint at der er enkle overskrifter. Der er noget af det man leder efter.
+- Forestil dig at du gerne vil være medlem af Ældre Sagen. Prøv at finde information om at blive medlem.
+    Havde ikke helt fanget at vi var inde på tabben allerede.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+        2'er
+    - Kommentarer?
+        Ellers skulle der være en stor bar der siger "Bliv medlem."
+        Fint med oversigt over forskellige rabatniveauer.
+- Prøv at finde siden med medlemstilbud.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+        1
+    - Kommentarer?
+        Den var nem fordi vi var ved Medlemsservice.
+- Du ønsker at købe en billet til en Violinkoncert med Brahms. Prøv at finde information om dette.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+        7
+    - Kommentarer?
+        Ville først gå hen til arrangementer.
+        Ville derefter Medlemstilbud > Underholdning.
+        Der burde være noget af det samme inde på Arrangementer som der er på Medlemstilbud.
+        Bør også have noget med dem der ikke giver rabat.
+        Når først jeg fandt Medlemstilbud var det nemt nok. Underholdning burde dække over koncerter.
+- Prøv at gennemføre et køb af denne billet. Bare rolig, det er kun en prototype, så der kommer ikke til at ske noget af det.
+    - Vurdér oplevelsen på en skala fra 1-10, hvor 1 er meget nem og 10 er meget svær.
+        1-2.
+    - Kommentarer?
+        Ret simpelt, enkelt, fungerer godt.
+        Adresse virke overskueligt.
+        Kommer der information om VISA/...?
+- Hvordan var den generelle oplevelse af at bruge siden?
+    Fin. Var forvirret mht Arrangementer, og at Underholdning ikke dækker over koncerter. Virker enkel. Godt med barer (tabs).
+    Bliver ikke vildledt af al muligt fnidder på skærmen.
+    Ville vælge andre farver, de er meget unge. Mere rolige farver.
