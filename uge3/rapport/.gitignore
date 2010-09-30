@@ -3,5 +3,7 @@
 *.toc
 *.log
 *.out
+*.bbl
+*.blg
 uge3.pdf
 aflevering.pdf
