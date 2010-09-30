@@ -49,6 +49,7 @@ clean:
 
 %.pdf: %.tex
 	pdflatex $*.tex
+	bibtex $*
 	pdflatex $*.tex
 	pdflatex $*.tex
 
