@@ -1,7 +1,7 @@
 GRAPHS=
 TARGET=uge4.pdf
 TEXFILES=*.tex
-HELPFILES=
+HELPFILES=references.bib
 
 all: $(TARGET)
 
