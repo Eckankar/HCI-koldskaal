@@ -1,5 +1,5 @@
 GRAPHS=
-TARGET=uge3.pdf
+TARGET=uge4.pdf
 TEXFILES=*.tex
 HELPFILES=
 
@@ -11,7 +11,7 @@ $(TARGET): aflevering.pdf
 aflevering.pdf: $(GRAPHS) $(TEXFILES) $(HELPFILES) Makefile
 
 clean:
-	rm -rf *.aux *.log *.out *.toc *.eps *.data *~ aflevering.pdf $(GRAPHS) $(TARGET)
+	rm -rf *.bbl *.blg *.aux *.log *.out *.toc *.eps *.data *~ aflevering.pdf $(GRAPHS) $(TARGET)
 
 %.svg: %.dot
 	dot $*.dot -Tsvg -o $*.svg
