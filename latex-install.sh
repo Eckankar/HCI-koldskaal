@@ -5,7 +5,7 @@ if [ `whoami` != root ]; then
 	exit 0
 fi
 
-apt-get install texlive-full graphviz dia
+apt-get install texlive-full graphviz dia make
 
 TMPDIR=`mktemp -d`
 cd $TMPDIR
