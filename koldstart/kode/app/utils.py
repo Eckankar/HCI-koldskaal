@@ -27,7 +27,7 @@ def expose(methods, rules, **kw):
     def decorate(f):
         for rule in rules:
             name = f.__module__ + "." + f.__name__
-            name = name[len(__package__) + len(".controllers."):]
+            name = name[len("app.controllers."):]
             responders[name] = f
             url_map.add(Rule(rule, methods=methods, endpoint=name, **kw))
         return f
@@ -63,7 +63,7 @@ def template_render(templatename, **kwargs):
     kwargs["widget"] = widget
     return template.render(**kwargs)
 
-for file in get_files(directory = __package__ + "/controllers"):
+for file in get_files(directory = "app/controllers"):
     __import__(splitext(file)[0].replace("/","."))
 
 from app.controllers import notfound, error
