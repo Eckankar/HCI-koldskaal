@@ -23,15 +23,14 @@ class Application(object):
             local.response = Response()
             local.session = Session(local.request.cookies.get("session"))
             try:
-                #notfound = responders["notfound"]
                 local.url_adapter = url_adapter = url_map.bind_to_environ(environ)
                 try:
                     endpoint, params = url_adapter.match()
                 except NotFound:
-                    notfound()
-                else:
-                    local.endpoint = endpoint
-                    responders[endpoint](**params)
+                    endpoint = "notfound"
+                    params = {}
+                local.endpoint = endpoint
+                responders[endpoint](**params)
             except:
                 if self.debug:
                     raise

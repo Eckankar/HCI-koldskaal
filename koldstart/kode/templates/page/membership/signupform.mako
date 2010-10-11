@@ -38,7 +38,7 @@
     </tbody> 
 </table> 
  
-<form action="/?level1=0&amp;level2=1&amp;level3=0" method="post" class="cmxform" id="regform"> 
+<form action="${url_for("member.signup_done", method="POST")}" method="post" class="cmxform" id="regform"> 
 <fieldset> 
   <legend>Angiv medlemsoplysninger</legend> 
   <ol> 
