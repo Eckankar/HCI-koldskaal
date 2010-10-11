@@ -1,3 +1,46 @@
 \chapter{Overordnet struktur og design}
 
+En af de ting vi valgte at ændre i prototypen var den
+måde vores URLs bliver genereret på, så de bliver mere
+overskuelige for brugeren \cite[s.~385]{Benyon2010}. Fx er det
+ikke særligt hensigtsmæssigt at URLen til ``Bliv medlem'' er
+\url{http://pensionist.coq.dk/?level1=0&level2=1&level3=0}. Dette er nu blevet
+ændret til \url{http://pensionist.coq.dk/medlemsskab}. Ligeledes er de andre
+URLs også blevet gjort pænere.
 
+Siden er også blevet ændret således at forsiden for ``Rabatter og tilbud''
+indeholder et generelt overblik hvorfra man kan komme videre til de enkelte
+underpunkter \cite[s.~386]{Benyon2010}. Siden imødekommer nu også folk der
+er mere søgefokuserede idet man fra ethvert sted på siden nemt kan tilgå
+søgefunktionaliteten \cite[s. 386]{Benyon2010}.
+
+Ved organiseringen af indkøbsportalen har vi valgt at bruge flere forskellige
+klassificeringsskemaer som beskrevet i \cite[s.~392--394]{Benyon2010}.
+Gennem kalenderen har vi en kronologisk organisering af arrangementerne.
+En mere opgavebaseret organisering er dog også tilgængelig gennem
+kategorivisningen, og her kan man også finde alle de ting der ikke er
+tidsbestemte (bøger, film etc.).
+
+Idet man kan tilgå en delmængde af tilbuddene gennem flere forskellige
+navigationsstier (enten gennem kalenderen eller kategorierne) er denne del af
+hjemmesiden altså organiseret mere som et netværk end en strengt hierarkisk
+struktur \cite[s.~396]{Benyon2010}. Når man har nået et enkelt produkt
+skifter det dog til en sekventiel organisering så selve købsprocessen bliver
+forenklet i form af en slags troldmand.
+
+Sidens globale navigation er implementeret i form af faneblade. Når
+man tilgår undersiderne får man efterfølgende adgang til en sekundær
+samling af faner. Dette burde gøre det nemmere at hoppe højere op i
+navigationstræet eller skifte til en anden af hjemmesidens hovedkategorier
+\cite[s.~402]{Benyon2010}. Under førnævnte købsprocess understøttes
+brugeren af en slags statusbar der viser hvor langt man er nået så stien
+bliver mere tydelig \cite[s.~403]{Benyon2010}.
+
+Slutteligt har søgning som sagt fået en større prioritet på hjemmesiden
+fordi det for mange mennesker er blevet en tilvant måde at finde
+informationer på hjemmesider \cite[s.~405]{Benyon2010}. Vi har imidlertid
+valgt at tilsidesætte det tekniske aspekt med at implementere søgningen, så
+i prototypen vil den udelukkende fremstå som et visuelt element i designet.
+
+Ændringerne er endnu ikke blevet implementeret i den interaktive prototype,
+så designet kan ses i papirprototypen fra \cite{osos}.

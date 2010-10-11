@@ -1,0 +1,286 @@
+/* Makeshift CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, aside, nav, article {
+    display: block;
+}
+
+body {
+    margin: 0 auto;
+    width: 940px;
+    padding: 22px 0;
+}
+
+p {
+    padding-bottom: 22px;
+}
+
+nav {
+    left: 0;
+    width: 100%;
+    /*background-color: #eee;*/
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+}
+
+#level1 li {
+/*    margin-right: 10px;*/
+}
+
+#level1 li.selected {
+    padding-top: 10px;
+}
+
+#level1 li.unselected {
+    margin-top: 10px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    width: 140px;
+    font-size: 11pt;
+    line-height: 33pt;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+nav ul li.selected a {
+    color: #fff;
+}
+
+.menuBar {
+    width: 100%;
+    height: 1em;
+    clear: both;
+}
+
+#level3 {
+    float: left;
+    width: 200px;
+    padding-bottom: 0.5em;
+}
+
+#level3, #level3 ul {
+    list-style: none;
+}
+
+#level3 li {
+    padding: 0.3em;
+    padding-left: 0.5em;
+}
+
+#level3 ul li {
+    padding-left: 1em;
+}
+
+#level3 ul ul li {
+    padding-left: 2em;
+}
+
+#level3 ul ul ul li {
+    padding-left: 3em;
+}
+
+#level3 .noIndentLi {
+    padding: 0px;
+}
+
+/* Menu colors */
+.lightMenu0 {
+    background-color: #FF99AA;
+}
+
+.darkMenu0 {
+    background-color: #FF5566;
+}
+
+.lightMenu1 {
+    background-color: #DD88FF;
+}
+
+.darkMenu1 {
+    background-color: #CC44FF;
+}
+
+.lightMenu2 {
+    background-color: #FF8547;
+}
+
+.darkMenu2 {
+    background-color: #FF5500;
+}
+
+.lightMenu3 {
+    background-color: #00C41A;
+}
+
+.darkMenu3 {
+    background-color: #009113;
+}
+
+/*------------------------------
+=CONTENT AREA AND SIDEBAR LAYOUT
+------------------------------*/
+
+#content {
+    margin-top 0px;
+    margin-left: 0px;
+    padding-left: 1em;
+    padding-top: 1em;
+    display: table;
+}
+
+#mainContent {
+    display: table-cell;
+    width: 620px;
+    padding-right: 22px;
+}
+
+/*------------------------------
+=FORMS
+------------------------------*/
+
+.cmxform fieldset {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.cmxform legend {
+  padding: 0 2px;
+  font-weight: bold;
+}
+
+.cmxform label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+}
+
+.cmxform fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+
+.cmxform fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
+.cmxform em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+
+.cmxform label {
+  width: 220px; /* Width of labels */
+}
+
+.cmxform fieldset fieldset label {
+  margin-left: 223px; /* Width plus 3 (html space) */
+}
+
+/*--------------------------
+ * Categories 
+ *--------------------------*/
+.kategoriBox {
+    float: left;
+    padding: 10px;
+    margin-bottom: 2em;
+}
+
+.kategoriBox h2 {
+    padding: 0px;
+    font-size: 16pt;
+    line-height: 20pt; 
+    font-family: sans-serif;
+    color: #CD041B;
+}
+
+.kategoriBox img {
+    border: 1px solid black;
+}
+
+.kategoriBox h2.hover {
+    cursor: pointer;
+}
+
+.kategoriBox a.visited, .kategoriBox a {
+    text-decoration: none;
+}
+
+
+dl.itemInfo {
+    margin: 10px 0;
+}
+
+dl.itemInfo dt {
+    float: left;
+    width: 75px;
+    font-weight: bold;
+}
+
+dl.itemInfo dd {
+    margin-left: 85px;
+}
+
+#prisliste {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#prisliste caption {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#prisliste th {
+    text-align: left;
+}
+
+#purchase {
+    padding: 12px;
+    border: 2px solid #F56;
+    background: #F9A;
+}
+
+#regform fieldset {
+    border: 2px solid #999;
+    padding: 5px;
+}
+
+#regform legend {
+    font-weight: bold;
+}
+
+#regform fieldset > ol {
+    list-style-type: none;
+}
+
+#regform fieldset > ol li {
+    margin: 8px 0;
+}
+
+#regform label {
+    display: block;
+    font-weight: bold;
+}
