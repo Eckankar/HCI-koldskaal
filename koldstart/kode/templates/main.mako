@@ -9,8 +9,8 @@
             (("member.signup_form", u"Medlemsservice"), [
                 ("member.signup_form", u"Bliv medlem")
             ]),
-            (("member.offers", u"Medlemstilbud"), [
-                ("member.offers", u"Medlemstilbud")
+            (("shop.index", u"Medlemstilbud"), [
+                ("shop.index", u"Medlemstilbud")
             ]),
             (("blanks.network", u"Netværket"), [
                 ("blanks.network", u"Netværket")
@@ -19,7 +19,7 @@
                 ("blanks.counseling", u"Rådgivning")
             ]),
             (("blanks.events", u"Arrangementer"), [
-                ("blanks.events", u"Arrengementer")
+                ("blanks.events", u"Arrangementer")
             ]),
         ]),
         (("blanks.volunteer", "For frivillige"), [
@@ -33,9 +33,9 @@
             ])
         
         ]),
-        (("blanks.worklife", "Arbejsliv"), [
-            (("blanks.worklife", u"Arbejsliv"), [
-                ("blanks.worklife", u"Arbejsliv")
+        (("blanks.worklife", "Arbejdsliv"), [
+            (("blanks.worklife", u"Arbejdsliv"), [
+                ("blanks.worklife", u"Arbejdsliv")
             ])
         
         ])
