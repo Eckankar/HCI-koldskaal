@@ -1,23 +1,24 @@
 <%inherit file="/html5.mako"/>
 <%!
+    endpoint_override = None
     menu = [
         (("index", "Medlemmer"), [
-            (("index"            , u"Det gør vi for dig"), [
+            (("index", u"Det gør vi for dig"), [
                 ("index", u"Det gør vi for dig")
             ]),
-            (("member.signupform", u"Medlemsservice"    ), [
-                ("member.signupform", u"Bliv medlem"    )
+            (("member.signup_form", u"Medlemsservice"), [
+                ("member.signup_form", u"Bliv medlem")
             ]),
-            (("member.offers"   , u"Medlemstilbud"     ), [
-                ("member.offers", u"Medlemstilbud"    )
+            (("member.offers", u"Medlemstilbud"), [
+                ("member.offers", u"Medlemstilbud")
             ]),
-            (("blanks.network"   , u"Netværket"         ), [
+            (("blanks.network", u"Netværket"), [
                 ("blanks.network", u"Netværket")
             ]),
-            (("blanks.counseling", u"Rådgivning"        ), [
+            (("blanks.counseling", u"Rådgivning"), [
                 ("blanks.counseling", u"Rådgivning")
             ]),
-            (("blanks.events"    , u"Arrangementer"     ), [
+            (("blanks.events", u"Arrangementer"), [
                 ("blanks.events", u"Arrengementer")
             ]),
         ]),
@@ -60,7 +61,10 @@
         return level
         
 %><%
-    navpath = get_navpath(endpoint)
+    if self.attr.endpoint_override != None:
+        navpath = get_navpath(self.attr.endpoint_override)
+    else:
+        navpath = get_navpath(endpoint)
 %>
 <head>
     <meta charset="utf-8" />
