@@ -59,8 +59,14 @@ def template_render(templatename, **kwargs):
     kwargs["escape"] = escape
     kwargs["json"] = json.dumps
     kwargs["endpoint"] = local.endpoint
+    kwargs["endpoint_override"] = None
     kwargs["widget"] = widget
     return template.render(**kwargs)
 
 for file in get_files(directory = __package__ + "/controllers"):
     __import__(splitext(file)[0].replace("/","."))
+
+from app.controllers import notfound, error
+responders["notfound"] = notfound
+responders["error"] = error
+
