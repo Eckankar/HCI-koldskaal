@@ -249,7 +249,7 @@ dl.itemInfo dd {
     border-collapse: collapse;
 }
 
-#prisliste caption {
+#prisliste caption, #ratings caption {
     font-weight: bold;
     font-size: 1.2em;
     margin-bottom: .5em;
@@ -390,3 +390,56 @@ dd {
     margin-top: 1em;
 }
 
+#insideOrderInfo #infoVideo {
+    float: right;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+#ratings {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#ratings td {
+    border: 1px solid gray;
+}
+
+#ratings .userInfobox {
+    width: 250px;
+    border: 1px solid black;
+}
+
+#ratings .userInfoName {
+    display: block;
+    font-weight: bold;
+    padding: 2px;
+}
+
+#ratings .userInfobox img {
+    vertical-align: text-top;
+}
+
+#ratings .ratingBox .rating {
+    margin-top: 5px;
+    margin-bottom: .5em;
+}
+
+#ratings .ratingBox {
+    padding-left: .5em;
+    vertical-align: top;
+}
+
+#yourComment {
+    margin-top: .5em;
+    padding: .5em;
+}
+
+#yourComment input.submitBtn {
+    display: block;
+}
+
+#yourComment textarea {
+    height: 72pt;
+    width: 100%;
+}
