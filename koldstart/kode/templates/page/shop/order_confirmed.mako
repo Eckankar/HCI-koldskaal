@@ -129,9 +129,11 @@ input[type="radio"] {
 </tbody></table>
 </header>
 <div class="orderInfo" style="min-height: 100px">
+    <img src="/static/images/checkmark.png" id="checkmark" />
     <div id="insideOrderInfo">
     Din ordre er hermed modtaget.
-    
+
     Ordren vil blive behandlet inden for 5 arbejdsdage.
+    <div style="clear: both"></div>
     </div>
 </div>
