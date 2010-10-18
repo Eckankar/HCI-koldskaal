@@ -73,7 +73,7 @@ nav ul li.selected a {
 }
 
 #level3 {
-    float: left;
+    /*float: left;*/
     width: 200px;
     padding-bottom: 0.5em;
 }
@@ -283,4 +283,17 @@ dl.itemInfo dd {
 #regform label {
     display: block;
     font-weight: bold;
+}
+
+#signupbox {
+    border: 1px solid black;
+    width: 180px;
+    height: 150px;
+    margin-top: 0.5em;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+#leftSideMenu {
+    float: left;
 }
