@@ -33,8 +33,8 @@
                 <dd><strong>3.</strong> Julemanden kommer på tidligt visit</dd>
                 <dd><strong>15.</strong> Udflugt til din mor</dd>
                 <dd><strong>16.</strong> Udflugt til din mor (fortsat)</dd>
-                <dd>Bitch</dd>
             </dl>
+            <p><a href="/events">Se den fulde kalender</a></p>
         </div>
     </div>
 <div id="kategoriVisning" style="float:left;width:500px;">
