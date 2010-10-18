@@ -354,3 +354,9 @@ dl.itemInfo dd {
 #prisliste .medalicon img {
     display: block;
 }
+
+#insideOrderInfo #infoVideo {
+    float: right;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
