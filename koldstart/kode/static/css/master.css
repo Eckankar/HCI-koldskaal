@@ -246,15 +246,18 @@ dl.itemInfo dd {
 #prisliste {
     width: 400px;
     margin: 0 auto;
+    border-collapse: collapse;
 }
 
 #prisliste caption {
     font-weight: bold;
     font-size: 1.2em;
+    margin-bottom: .5em;
 }
 
-#prisliste th {
-    text-align: left;
+#prisliste td {
+    border: 1px solid black;
+    padding: 2px;
 }
 
 #purchase {
@@ -281,7 +284,7 @@ dl.itemInfo dd {
 }
 
 #regform label {
-    display: block;
+    /*display: block;*/
     font-weight: bold;
 }
 
@@ -326,4 +329,28 @@ dl.itemInfo dd {
     padding: .5em;
     width: 200px;
     height: 200px;
+}
+
+#prisliste #moreMemberInfo {
+    border: none;
+    padding: 0px;
+}
+
+#moreMemberInfo a {
+    display: block;
+    border: 1px solid black;
+    margin-top: .5em;
+    text-align: center;
+    background-color: #FF8547;
+    padding: 2px;
+}
+
+#prisliste .medalicon {
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+}
+
+#prisliste .medalicon img {
+    display: block;
 }
