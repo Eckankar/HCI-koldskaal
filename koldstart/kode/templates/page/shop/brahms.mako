@@ -157,3 +157,43 @@ Nulla ipsum nunc, scelerisque id fermentum non, egestas et risus. Donec accumsan
             <div style="clear: both"></div>
         </div>
     </div>
+    <div class="orderInfo" style="margin-top: 1em">
+        <table id="ratings">
+            <caption>Andre brugere synes:</caption>
+            <tbody>
+                <tr>
+                    <td class="userInfobox">
+                        <span class="userInfoName">Jørgen Svendsen</span>
+                        <img src="/static/images/joergen.jpg"/>
+                        Guldmedlem
+                        <div style="clear: both"></div>
+                    </td>
+                    <td class="ratingBox">
+                        <div class="rating">Vurdering:
+                            <img src="/static/images/full_star.png" />
+                            <img src="/static/images/full_star.png" />
+                            <img src="/static/images/full_star.png" />
+                            <img src="/static/images/half_star.png" />
+                            <img src="/static/images/empty_star.png" />
+                        </div>
+                        <p>Jeg elsker normalt Brahms, men jeg var lidt skuffet over at koncerten blev afholdt på en afsides mark på Amager.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="yourComment" class="cmxform">
+            <fieldset>
+                <div class="rating">
+                    Giv selv en vurdering:
+                    <img src="/static/images/empty_star.png" />
+                    <img src="/static/images/empty_star.png" />
+                    <img src="/static/images/empty_star.png" />
+                    <img src="/static/images/empty_star.png" />
+                    <img src="/static/images/empty_star.png" />
+                </div>
+                <label for="kommentarfelt">Kommentar: </label>
+                <textarea name="kommentarfelt">Deres kommentar hér.</textarea>
+                <input type="submit" value="Send feedback" class="submitBtn"/>
+            </fieldset>
+        </div>
+    </div>
