@@ -11,30 +11,32 @@
 </p> 
  
 <table id="prisliste"> 
-    <caption>Prisliste</caption> 
-    <thead> 
-        <tr> 
-            <th>Medlemstype:</th> 
-            <th>Pris pr. halvår:</th> 
-            <th>Rabat:</th> 
-        </tr> 
-    </thead> 
+    <caption>Medlemskabstyper</caption> 
     <tbody> 
         <tr> 
+            <td class="medalicon"><img src="/static/images/bronze_medal.png"/></td> 
             <td>Bronze</td> 
-            <td>100,00 kr.</td> 
-            <td>0 %</td> 
+            <td>0 % rabat</td> 
+            <td>Ingen yderligere fordele</td>
         </tr> 
         <tr> 
+            <td class="medalicon"><img src="/static/images/silver_medal.png"/></td> 
             <td>Sølv</td> 
-            <td>200,00 kr.</td> 
-            <td>5 %</td> 
+            <td>5 % rabat</td> 
+            <td>Månedligt frit PC-kursus</td>
         </tr> 
         <tr> 
+            <td class="medalicon"><img src="/static/images/gold_medal.png"/></td> 
             <td>Guld</td> 
-            <td>300,00 kr.</td> 
-            <td>10 %</td> 
-        </tr> 
+            <td>10 % rabat</td> 
+            <td>Fri lånepanda hver weekend</td>
+        </tr>
+        <tr>
+            <td style="border: none"></td> 
+            <td style="border: none"></td> 
+            <td style="border: none"></td> 
+            <td id="moreMemberInfo"><a href="/medlemsskab">Se alle fordele</a></td>
+        </tr>
     </tbody> 
 </table> 
  

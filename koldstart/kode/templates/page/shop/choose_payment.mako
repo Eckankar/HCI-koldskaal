@@ -155,6 +155,16 @@ input[type="radio"] {
                         Skriv teksten <strong style="padding-left: .5em; padding-right: .5em; border: 1px solid gray; background: silver">P5210CR</strong> i kommentarfeltet på betalingen, så vi ved at den er tilknyttet denne ordre.
                     </div>
                 </li>
+                <li>
+                    <input type="radio" name="betalingsform" /> Betal med gavekort
+                    <div>
+                        Skriv venligst koden der står på gavekortet:
+                        <div>
+                            <label for="gavekortnr">Kode</label>
+                            <input type="input" name="gavekortnr" id="gavekortnr" /><br/>
+                        </div>
+                    </div>
+                </li>
             </ul>
             </fieldset>
             <input type="submit" value="Fortsæt" />

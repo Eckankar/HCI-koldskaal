@@ -73,7 +73,7 @@ nav ul li.selected a {
 }
 
 #level3 {
-    float: left;
+    /*float: left;*/
     width: 200px;
     padding-bottom: 0.5em;
 }
@@ -246,15 +246,18 @@ dl.itemInfo dd {
 #prisliste {
     width: 400px;
     margin: 0 auto;
+    border-collapse: collapse;
 }
 
-#prisliste caption {
+#prisliste caption, #ratings caption {
     font-weight: bold;
     font-size: 1.2em;
+    margin-bottom: .5em;
 }
 
-#prisliste th {
-    text-align: left;
+#prisliste td {
+    border: 1px solid black;
+    padding: 2px;
 }
 
 #purchase {
@@ -281,6 +284,162 @@ dl.itemInfo dd {
 }
 
 #regform label {
+    /*display: block;*/
+    font-weight: bold;
+}
+
+#signupbox {
+    border: 1px solid black;
+    width: 180px;
+    min-height: 150px;
+    margin-top: 0.5em;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+#leftSideMenu {
+    float: left;
+}
+
+#calendarBox {
+    margin-top: 2em;
+    width: 600px;
+}
+
+#calendarBox table {
+    width: 100%;
+}
+
+#calendarBox h2 {
+    min-width: 100%;
+    border-bottom: 1px solid blue;
+}
+
+#calendarBox .calendarInfo {
+    padding: 2pt;
+    margin-bottom: .5em;
+}
+
+#calendarBox .calendarDate {
+    width: 150px;
+}
+
+#checkmark {
+    float: left;
+    padding: .5em;
+    width: 200px;
+    height: 200px;
+}
+
+#prisliste #moreMemberInfo {
+    border: none;
+    padding: 0px;
+}
+
+#moreMemberInfo a {
+    display: block;
+    border: 1px solid black;
+    margin-top: .5em;
+    text-align: center;
+    background-color: #FF8547;
+    padding: 2px;
+}
+
+#prisliste .medalicon {
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+}
+
+#prisliste .medalicon img {
+    display: block;
+}
+
+dt {
+    margin: 0 0 0 0;
+    font-weight: bold;
+}
+dd {
+    margin: 0 0 0 1em;
+}
+#shop_rightmenu {
+    width: 210px;
+    float: right;
+}
+#shop_rightmenu > div {
+    padding:4px;
+    border: 1px dashed #000;
+}
+#shop_rightmenu > div > p {
+    margin-top:5px;
+    padding-bottom:0;
+    margin-bottom:5px;
+    font-weight:bolder;
+    font-size:115%;
+}
+#shop_new_items > div {
+    border:1px solid #000;
+    margin:0 0 4px 0;
+}
+#shop_new_items > div > img
+{
+    vertical-align: top;
+    border-right:1px solid #000;
+}
+#shop_upcoming_events {
+    margin-top: 1em;
+}
+
+#insideOrderInfo #infoVideo {
+    float: right;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+#ratings {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#ratings td {
+    border: 1px solid gray;
+}
+
+#ratings .userInfobox {
+    width: 250px;
+    border: 1px solid black;
+}
+
+#ratings .userInfoName {
     display: block;
     font-weight: bold;
+    padding: 2px;
+}
+
+#ratings .userInfobox img {
+    vertical-align: text-top;
+}
+
+#ratings .ratingBox .rating {
+    margin-top: 5px;
+    margin-bottom: .5em;
+}
+
+#ratings .ratingBox {
+    padding-left: .5em;
+    vertical-align: top;
+}
+
+#yourComment {
+    margin-top: .5em;
+    padding: .5em;
+}
+
+#yourComment input.submitBtn {
+    display: block;
+}
+
+#yourComment textarea {
+    height: 72pt;
+    width: 100%;
 }

@@ -145,11 +145,55 @@ input[type="radio"] {
     </div>
     <div class="orderInfo" style="margin-top: .5em;">
         <div id="insideOrderInfo">
+            <div id="infoVideo">
+                <object width="308" height="250"><param name="movie" value="http://www.youtube.com/v/UkIULqYxiPU?fs=1&amp;hl=en_US&amp;color1=0x006699&amp;color2=0x54abd6"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/UkIULqYxiPU?fs=1&amp;hl=en_US&amp;color1=0x006699&amp;color2=0x54abd6" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="308" height="250"></embed></object>
+            </div>
             <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at ligula lectus. Phasellus dapibus enim eu est tempus dignissim. Aliquam erat volutpat. Donec cursus, augue eget faucibus fermentum, purus arcu interdum tellus, eu accumsan nisl nunc eu elit. In ipsum tellus, commodo a rhoncus vel, molestie in sem. Maecenas in sapien nisl, vitae gravida sapien. Pellentesque in augue dui. Aliquam et nunc nisi, eget rhoncus ante. In porttitor egestas odio eget bibendum. Praesent sagittis urna id risus placerat et porttitor nisi tempus. Mauris congue fringilla massa, sit amet tempus sapien imperdiet et. Mauris nec arcu ac sapien pulvinar volutpat. Mauris egestas hendrerit cursus.
             </p>
             <p>
 Nulla ipsum nunc, scelerisque id fermentum non, egestas et risus. Donec accumsan, sapien eget rutrum ullamcorper, ante ligula porttitor diam, at posuere nunc arcu sit amet orci. In vestibulum, lectus vel ullamcorper rhoncus, lorem sem feugiat nibh, nec tempus ipsum mi sit amet arcu. Integer eu varius lorem. Ut vel elit metus, ut rhoncus ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris et dui eu mi placerat condimentum in sit amet quam. Quisque congue nulla lacus. Integer fermentum, sem euismod rhoncus pretium, quam felis bibendum eros, non consequat leo nibh id nunc. Vestibulum dictum, velit non varius rutrum, nisi nibh iaculis nisl, at accumsan odio felis in arcu. Duis mi ipsum, rutrum blandit volutpat in, pretium sed metus. Integer dictum est ut urna rhoncus sed consectetur metus tempus. Donec eget turpis enim, nec elementum est. Integer viverra, nunc nec accumsan congue, nunc turpis imperdiet sapien, vel elementum ipsum mauris et tellus. Aliquam vitae enim eleifend libero placerat mattis eu a eros. Mauris consequat velit id tellus euismod viverra. Integer quam magna, sollicitudin nec accumsan quis, pharetra ut elit.
             </p>
+            <div style="clear: both"></div>
+        </div>
+    </div>
+    <div class="orderInfo" style="margin-top: 1em">
+        <table id="ratings">
+            <caption>Andre brugere synes:</caption>
+            <tbody>
+                <tr>
+                    <td class="userInfobox">
+                        <span class="userInfoName">Jørgen Svendsen</span>
+                        <img src="/static/images/joergen.jpg"/>
+                        Guldmedlem
+                        <div style="clear: both"></div>
+                    </td>
+                    <td class="ratingBox">
+                        <div class="rating">Vurdering:
+                            <img src="/static/images/full_star.png" />
+                            <img src="/static/images/full_star.png" />
+                            <img src="/static/images/full_star.png" />
+                            <img src="/static/images/half_star.png" />
+                            <img src="/static/images/empty_star.png" />
+                        </div>
+                        <p>Jeg elsker normalt Brahms, men jeg var lidt skuffet over at koncerten blev afholdt på en afsides mark på Amager.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="yourComment" class="cmxform">
+            <fieldset>
+                <div class="rating">
+                    Giv selv en vurdering:
+                    <img src="/static/images/empty_star.png" />
+                    <img src="/static/images/empty_star.png" />
+                    <img src="/static/images/empty_star.png" />
+                    <img src="/static/images/empty_star.png" />
+                    <img src="/static/images/empty_star.png" />
+                </div>
+                <label for="kommentarfelt">Kommentar: </label>
+                <textarea name="kommentarfelt">Deres kommentar hér.</textarea>
+                <input type="submit" value="Send feedback" class="submitBtn"/>
+            </fieldset>
         </div>
     </div>

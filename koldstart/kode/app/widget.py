@@ -1,32 +1,15 @@
-from app.utils import template_render, url_for, local
+from app.utils import template_render, local
 
-def sidemenu():
-    user_id = local.session.get("user_id")
+def loginstatus():
+    user_id = local.request.cookies.get("user_id")
     
-    is_logged_in = False
+    is_logged_in = user_id != None
     name,email = None,None
     if is_logged_in:
-        name,email = "lol", "hej@hej.dk"
+        name,email = "Gerda Hansen", "privat@gerdahansen.name"
     
-    if is_logged_in:
-        privs = get_privset(user_id)
-    else:
-        privs = set()
-    
-    return template_render("widget/sidemenu.mako",
-        is_logged_in = is_logged_in,
-        email = email,
-        privs = privs
-    )
-    
-def statusbar():
-    is_logged_in = local.session.get("user_id") != None
-    name,email = None,None
-    if is_logged_in:
-        name,email = "lol", "hej@hej.dk"
-    
-    return template_render("widget/statusbar.mako",
+    return template_render("widget/loginstatus.mako",
         is_logged_in = is_logged_in,
         name = name,
-        email = email
+        email = email,
     )
