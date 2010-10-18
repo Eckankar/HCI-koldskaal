@@ -362,3 +362,31 @@ dt {
 dd {
     margin: 0 0 0 1em;
 }
+#shop_rightmenu {
+    width: 210px;
+    float: right;
+}
+#shop_rightmenu > div {
+    padding:4px;
+    border: 1px dashed #000;
+}
+#shop_rightmenu > div > p {
+    margin-top:5px;
+    padding-bottom:0;
+    margin-bottom:5px;
+    font-weight:bolder;
+    font-size:115%;
+}
+#shop_new_items > div {
+    border:1px solid #000;
+    margin:0 0 4px 0;
+}
+#shop_new_items > div > img
+{
+    vertical-align: top;
+    border-right:1px solid #000;
+}
+#shop_upcoming_events {
+    margin-top: 1em;
+}
+

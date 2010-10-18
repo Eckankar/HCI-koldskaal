@@ -4,7 +4,40 @@
     <p>Tilbud, rabatter og fordele fra vores mange samarbejdspartnere. Find de nyeste tilbud, oplevelser og produkter i kategorierne.</p>
 </header>
 
-<div id="kategoriVisning">
+    <div id="shop_rightmenu">
+        <div id="shop_new_items">
+                <p>Nyt i shoppen</p>
+                <div>
+                    <img src="/static/images/shop/wireless_hearing_aid.jpg"/>
+                    Wifi Høreapparat
+                </div>
+                <div>
+                    <img src="/static/images/shop/panda_maske.jpg" />
+                    Panda maske
+                </div>
+                <div>
+                    <img src="/static/images/shop/louisiana.jpg" />
+                    Udflugt til Louisiana
+                </div>
+        </div>
+        <div id="shop_upcoming_events">
+            <p>Kommende begivenheder</p>
+            <dl>
+                <dt>Oktober</dt>
+                <dd><strong>18.</strong> Violinkoncert (Brahms)</dd>
+                <dd><strong>20.</strong> Se pandaerne i Zoo</dd>
+                <dd><strong>25.</strong> PC Kørekort</dd>
+                <dd><strong>28.</strong> Microsoft Torsdag</dd>
+                <dt>November</dt>
+                <dd><strong>2.</strong> På Bakken med Bent Burg</dd>
+                <dd><strong>3.</strong> Julemanden kommer på tidligt visit</dd>
+                <dd><strong>15.</strong> Udflugt til din mor</dd>
+                <dd><strong>16.</strong> Udflugt til din mor (fortsat)</dd>
+                <dd>Bitch</dd>
+            </dl>
+        </div>
+    </div>
+<div id="kategoriVisning" style="float:left;width:500px;">
     <div class="kategoriBox">
         <a href="javascript:alert('not implemented');" alt="Gå til bekvemmeligheder" title="Gå til bekvemmeligheder">
             <img src="/static/images/kategori_bekvemmeligheder.jpg" title="Bekvemmeligheder" alt="Bekvemmeligheder"/>
