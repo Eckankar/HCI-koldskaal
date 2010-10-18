@@ -291,7 +291,7 @@ dl.itemInfo dd {
 #signupbox {
     border: 1px solid black;
     width: 180px;
-    height: 150px;
+    min-height: 150px;
     margin-top: 0.5em;
     margin-left: 5px;
     padding: 5px;
@@ -353,4 +353,12 @@ dl.itemInfo dd {
 
 #prisliste .medalicon img {
     display: block;
+}
+
+dt {
+    margin: 0 0 0 0;
+    font-weight: bold;
+}
+dd {
+    margin: 0 0 0 1em;
 }

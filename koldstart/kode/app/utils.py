@@ -61,7 +61,7 @@ def template_render(templatename, **kwargs):
     kwargs["endpoint"] = local.endpoint
     kwargs["endpoint_override"] = None
     kwargs["widget"] = widget
-    return template.render(**kwargs)
+    return template.render(**kwargs).decode("utf-8")
 
 for file in get_files(directory = "app/controllers"):
     __import__(splitext(file)[0].replace("/","."))
