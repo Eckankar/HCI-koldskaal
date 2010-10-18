@@ -320,3 +320,10 @@ dl.itemInfo dd {
 #calendarBox .calendarDate {
     width: 150px;
 }
+
+#checkmark {
+    float: left;
+    padding: .5em;
+    width: 200px;
+    height: 200px;
+}
