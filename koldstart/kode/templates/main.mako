@@ -18,8 +18,8 @@
             (("blanks.counseling", u"Rådgivning"), [
                 ("blanks.counseling", u"Rådgivning")
             ]),
-            (("blanks.events", u"Arrangementer"), [
-                ("blanks.events", u"Arrangementer")
+            (("events.calendar", u"Arrangementer"), [
+                ("events.calendar", u"Arrangementer")
             ]),
         ]),
         (("blanks.volunteer", "For frivillige"), [

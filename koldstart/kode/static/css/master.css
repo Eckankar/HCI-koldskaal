@@ -297,3 +297,26 @@ dl.itemInfo dd {
 #leftSideMenu {
     float: left;
 }
+
+#calendarBox {
+    margin-top: 2em;
+    width: 600px;
+}
+
+#calendarBox table {
+    width: 100%;
+}
+
+#calendarBox h2 {
+    min-width: 100%;
+    border-bottom: 1px solid blue;
+}
+
+#calendarBox .calendarInfo {
+    padding: 2pt;
+    margin-bottom: .5em;
+}
+
+#calendarBox .calendarDate {
+    width: 150px;
+}
