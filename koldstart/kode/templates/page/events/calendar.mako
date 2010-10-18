@@ -35,7 +35,7 @@
             <tr>
                 <td class="calendarDate">2. november</td>
                 <td class="calendarInfo">
-                    <a href="/events">På Bakken med Bent Burg</a>
+                    <a href="/events">På Bakken med Bengt Burg</a>
                 </td>
             </tr>
             <tr>
