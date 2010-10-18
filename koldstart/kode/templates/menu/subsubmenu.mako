@@ -6,9 +6,7 @@
         <li><a href="${url_for(v[0])}">${v[1]}</a></li>
 %endfor
     </ul>
-    <div id="signupbox">
-        <a href="/medlemsskab">Bliv medlem nu</a>
-    </div>
+${widget.loginstatus()}
 </aside>
 %endif
 <%doc>    
