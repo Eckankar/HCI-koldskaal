@@ -17,14 +17,14 @@ def violin_concerts():
 def brahms():
     template_response("/page/shop/brahms.mako")
 
-@expose(["POST"], ["/medlemstilbud/bestil"])
+@expose(["GET", "POST"], ["/medlemstilbud/bestil"])
 def enter_info():
     template_response("/page/shop/enter_info.mako")
 
-@expose(["POST"], ["/medlemstilbud/bestil/betalingsform"])
+@expose(["GET", "POST"], ["/medlemstilbud/bestil/betalingsform"])
 def choose_payment():
     template_response("/page/shop/choose_payment.mako")
 
-@expose(["POST"], ["/medlemstilbud/bestil/success"])
+@expose(["GET", "POST"], ["/medlemstilbud/bestil/success"])
 def order_confirmed():
     template_response("/page/shop/order_confirmed.mako")
